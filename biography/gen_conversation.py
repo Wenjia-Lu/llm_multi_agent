@@ -56,6 +56,7 @@ if __name__ == "__main__":
     with open("article.json", "r") as f:
         data = json.load(f)
     
+    # openai.api_key = eli's_key_here
     people = sorted(data.keys())
     people = [filter_people(person) for person in people]
     random.seed(1)

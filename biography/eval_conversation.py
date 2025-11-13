@@ -51,6 +51,8 @@ def filter_people(person):
 if __name__ == "__main__":
     response = json.load(open("biography_3_2.json", "r"))
 
+    # add api key here too
+
     with open("article.json", "r") as f:
         gt_data = json.load(f)
 
