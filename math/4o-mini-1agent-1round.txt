@@ -1,0 +1,3711 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 12 + 15 \\times 21 + 0 - 3 \\times 27 \\), we follow the order of operations, which dictates that we perform multiplication before addition and subtraction.\n\n1. Calculate \\( 15 \\times 21 \\):\n   \\[\n   15 \\times 21 = 315\n   \\]\n\n2. Calculate \\( 3 \\times 27 \\):\n   \\[\n   3 \\times 27 = 81\n   \\]\n\nNow substitute these results back into the expression:\n\\[\n12 + 315 + 0 - 81\n\\]\n\nNext, perform the addition and subtraction from left to right:\n1. \\( 12 + 315 = 327 \\)\n2. \\( 327 + 0 = 327 \\)\n3. \\( 327 - 81 = 246 \\)\n\nThus, the final result is:\n\\[\n\\text{The result is } 246.\n\\]",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566338,
+  "id": "chatcmpl-CdeSI2vFJvmbibNl20aLrHA5brtjJ",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 198,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 236
+  }
+}
+performance: 1.0 0.0
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 3 + 7 \\times 9 + 19 - 21 \\times 18 \\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. Calculate the multiplication first:\n   - \\( 7 \\times 9 = 63 \\)\n   - \\( 21 \\times 18 = 378 \\)\n\n2. Substitute back into the expression:\n   \\[\n   3 + 63 + 19 - 378\n   \\]\n\n3. Now perform the addition and subtraction from left to right:\n   - \\( 3 + 63 = 66 \\)\n   - \\( 66 + 19 = 85 \\)\n   - \\( 85 - 378 = -293 \\)\n\nThus, the final result of the expression \\( 3 + 7 \\times 9 + 19 - 21 \\times 18 \\) is \\( -293 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566344,
+  "id": "chatcmpl-CdeSOS11Jk4VcUH3Qbu6QjzhAoJoK",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 192,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 230
+  }
+}
+performance: 1.0 0.0
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 4 + 23 \\times 6 + 24 - 24 \\times 12 \\), we need to follow the order of operations (PEMDAS/BODMAS), which states to perform Multiplication and Division first, followed by Addition and Subtraction.\n\n1. First, calculate \\( 23 \\times 6 \\):\n   \\[\n   23 \\times 6 = 138\n   \\]\n\n2. Next, calculate \\( 24 \\times 12 \\):\n   \\[\n   24 \\times 12 = 288\n   \\]\n\nNow we substitute these results back into the expression:\n\\[\n4 + 138 + 24 - 288\n\\]\n\n3. Now, perform the additions and subtractions from left to right:\n   First, add \\( 4 + 138 \\):\n   \\[\n   4 + 138 = 142\n   \\]\n\n   Now add \\( 142 + 24 \\):\n   \\[\n   142 + 24 = 166\n   \\]\n\n   Finally, subtract \\( 288 \\) from \\( 166 \\):\n   \\[\n   166 - 288 = -122\n   \\]\n\nThus, the result of the expression \\( 4 + 23 \\times 6 + 24 - 24 \\times 12 \\) is \\( -122 \\). \n\n**Answer**: -122",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566350,
+  "id": "chatcmpl-CdeSUpCxbEPSSS2rGvNGc1jJZXBg5",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 289,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 327
+  }
+}
+performance: 1.0 0.0
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 26 + 1 \\times 6 + 7 - 23 \\times 14 \\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplications:\n   \\[\n   1 \\times 6 = 6\n   \\]\n   \\[\n   23 \\times 14 = 322\n   \\]\n\n2. Now, we can rewrite the expression using these results:\n   \\[\n   26 + 6 + 7 - 322\n   \\]\n\n3. Next, we perform the additions:\n   \\[\n   26 + 6 = 32\n   \\]\n   \\[\n   32 + 7 = 39\n   \\]\n\n4. Finally, we perform the subtraction:\n   \\[\n   39 - 322 = -283\n   \\]\n\nThus, the result of the expression \\( 26 + 1 \\times 6 + 7 - 23 \\times 14 \\) is \\(-283\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566359,
+  "id": "chatcmpl-CdeSdRpsvCQwfTmjlTzJMVAbVPugh",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 248,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 286
+  }
+}
+performance: 0.75 0.21650635094610965
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 24 + 17 \\times 5 + 25 - 13 \\times 8 \\), we need to follow the order of operations, which is parenthesis, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right). This can be remembered using the acronym PEMDAS.\n\n1. First, perform the multiplications:\n   \\[\n   17 \\times 5 = 85\n   \\]\n   \\[\n   13 \\times 8 = 104\n   \\]\n\n2. Now substitute these results back into the expression:\n   \\[\n   24 + 85 + 25 - 104\n   \\]\n\n3. Next, perform the additions and subtractions from left to right:\n   \\[\n   24 + 85 = 109\n   \\]\n   \\[\n   109 + 25 = 134\n   \\]\n   \\[\n   134 - 104 = 30\n   \\]\n\nTherefore, the result of the expression \\( 24 + 17 \\times 5 + 25 - 13 \\times 8 \\) is \\( 30 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566367,
+  "id": "chatcmpl-CdeSlvQSwtwEM0vHXiTf9NdBZuOuU",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 244,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 282
+  }
+}
+performance: 0.8 0.17888543819998318
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To find the result of the expression \\(9 + 20 \\times 19 + 16 - 19 \\times 5\\), we need to follow the order of operations, which is multiplication before addition and subtraction.\n\n1. Calculate the multiplication:\n   - \\(20 \\times 19 = 380\\)\n   - \\(19 \\times 5 = 95\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   9 + 380 + 16 - 95\n   \\]\n\n3. Perform the addition and subtraction from left to right:\n   - First, calculate \\(9 + 380 = 389\\)\n   - Then, \\(389 + 16 = 405\\)\n   - Finally, \\(405 - 95 = 310\\)\n\nSo, the result of the expression \\(9 + 20 \\times 19 + 16 - 19 \\times 5\\) is \\(310\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566372,
+  "id": "chatcmpl-CdeSqdN04lQmmB8yHIUwnjheibMCh",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 232
+  }
+}
+performance: 0.6666666666666666 0.19245008972987526
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 15 + 15 \\times 0 + 18 - 3 \\times 24 \\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. Calculate the multiplication:\n   - \\( 15 \\times 0 = 0 \\)\n   - \\( 3 \\times 24 = 72 \\)\n\nNow, substituting these results back into the expression, we have:  \n\\[ 15 + 0 + 18 - 72 \\]\n\n2. Next, perform the addition and subtraction from left to right:\n   - \\( 15 + 0 = 15 \\)\n   - \\( 15 + 18 = 33 \\)\n   - \\( 33 - 72 = -39 \\)\n\nThus, the final result of the expression is \\(-39\\).\n\n**Answer:** -39",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566377,
+  "id": "chatcmpl-CdeSv8sV4GGEKQ4Vrup9lc0P04G9W",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 177,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 215
+  }
+}
+performance: 0.7142857142857143 0.17074694419062766
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 17 + 19 \\times 29 + 19 - 19 \\times 14 \\), we need to follow the order of operations (PEMDAS/BODMAS), which indicates that we should perform multiplication and division before addition and subtraction.\n\n1. First, perform the multiplications:\n   - \\( 19 \\times 29 = 551 \\)\n   - \\( 19 \\times 14 = 266 \\)\n\nNow the expression looks like this:\n\\[ 17 + 551 + 19 - 266 \\]\n\n2. Next, perform the additions and the subtraction from left to right:\n   - \\( 17 + 551 = 568 \\)\n   - \\( 568 + 19 = 587 \\)\n   - \\( 587 - 266 = 321 \\)\n\nTherefore, the result of the expression \\( 17 + 19 \\times 29 + 19 - 19 \\times 14 \\) is \\( \\boxed{321} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566382,
+  "id": "chatcmpl-CdeT0inQ8SKvgCo5F4LZesMYlLfMt",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 206,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 244
+  }
+}
+performance: 0.625 0.1711632992203644
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(7 + 0 \\times 1 + 9 - 25 \\times 0\\), we need to follow the order of operations, also known as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplications:\n   - \\(0 \\times 1 = 0\\)\n   - \\(25 \\times 0 = 0\\)\n\n2. Now we can substitute these results back into the expression:\n   \\[\n   7 + 0 + 9 - 0\n   \\]\n\n3. Now, we can simplify this step-by-step:\n   - \\(7 + 0 = 7\\)\n   - \\(7 + 9 = 16\\)\n   - \\(16 - 0 = 16\\)\n\nThus, the final result of the expression \\(7 + 0 \\times 1 + 9 - 25 \\times 0\\) is \\(16\\).\n\n**Answer: 16**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566387,
+  "id": "chatcmpl-CdeT5WSZJBEbrWiPstJ3MwTFubzDK",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 224,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 262
+  }
+}
+performance: 0.5555555555555556 0.16563466499998444
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 20 \\times 23 + 3 - 11 \\times 18\\), we need to follow the order of operations, which states that multiplication should be performed before addition and subtraction.\n\n1. First, perform the multiplications:\n   - \\(20 \\times 23 = 460\\)\n   - \\(11 \\times 18 = 198\\)\n\n2. Now, substitute these results back into the expression:\n   \\[\n   10 + 460 + 3 - 198\n   \\]\n\n3. Next, perform the additions and subtraction from left to right:\n   - \\(10 + 460 = 470\\)\n   - \\(470 + 3 = 473\\)\n   - \\(473 - 198 = 275\\)\n\nThus, the result of the expression \\(10 + 20 \\times 23 + 3 - 11 \\times 18\\) is \\(275\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566395,
+  "id": "chatcmpl-CdeTDZ9PwrWBX9BAyb47LQHUpXXAX",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 195,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 233
+  }
+}
+performance: 0.5 0.15811388300841897
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(23 + 28 \\times 2 + 0 - 0 \\times 4\\), we need to follow the order of operations (also known as PEMDAS/BODMAS):\n\n1. Parentheses/Brackets\n2. Exponents/Orders\n3. Multiplication and Division (from left to right)\n4. Addition and Subtraction (from left to right)\n\nStarting with the multiplication:\n\n- Calculate \\(28 \\times 2\\):\n  \\[\n  28 \\times 2 = 56\n  \\]\n\n- Next, calculate \\(0 \\times 4\\):\n  \\[\n  0 \\times 4 = 0\n  \\]\n\nNow we can substitute these values back into the expression:\n\n\\[\n23 + 56 + 0 - 0\n\\]\n\nNow, simplify step by step:\n\n1. \\(23 + 56 = 79\\)\n2. \\(79 + 0 = 79\\)\n3. \\(79 - 0 = 79\\)\n\nThus, the final result is:\n\n\\[\n\\text{Answer: } 79\n\\]",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566399,
+  "id": "chatcmpl-CdeTHXvluKPMZuEFmk93btAmzz9ya",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 233,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 271
+  }
+}
+performance: 0.45454545454545453 0.150131422517231
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(21 + 5 \\times 6 + 8 - 20 \\times 17\\), we need to follow the order of operations, which is multiplication and division before addition and subtraction.\n\n1. Calculate the multiplication parts first:\n   - \\(5 \\times 6 = 30\\)\n   - \\(20 \\times 17 = 340\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   21 + 30 + 8 - 340\n   \\]\n\n3. Now, perform the additions and subtractions from left to right:\n   - First, add \\(21 + 30\\):\n     \\[\n     21 + 30 = 51\n     \\]\n   - Now add \\(51 + 8\\):\n     \\[\n     51 + 8 = 59\n     \\]\n   - Finally, subtract \\(340\\):\n     \\[\n     59 - 340 = -281\n     \\]\n\nThus, the result of the expression \\(21 + 5 \\times 6 + 8 - 20 \\times 17\\) is \\(-281\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566404,
+  "id": "chatcmpl-CdeTMzdSD6CwPFJ5Qm6IATUo856T3",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 236,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 274
+  }
+}
+performance: 0.4166666666666667 0.14231876063832777
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(15 + 4 \\times 9 + 10 - 26 \\times 24\\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division from left to right, Addition and Subtraction from left to right).\n\n1. First, we perform the multiplications:\n   - \\(4 \\times 9 = 36\\)\n   - \\(26 \\times 24 = 624\\)\n\n   Now, the expression looks like this:  \n   \\(15 + 36 + 10 - 624\\)\n\n2. Next, we perform the additions and subtraction from left to right:\n   - \\(15 + 36 = 51\\)\n   - \\(51 + 10 = 61\\)\n   - \\(61 - 624 = -563\\)\n\nTherefore, the result of the expression \\(15 + 4 \\times 9 + 10 - 26 \\times 24\\) is \\(-563\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566410,
+  "id": "chatcmpl-CdeTSjBG0b57WefoMT3AXELeHnYq3",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 215,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 253
+  }
+}
+performance: 0.38461538461538464 0.13493200297031221
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 1 + 1 \\times 7 + 9 - 25 \\times 3 \\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. First, we handle multiplication:\n   - \\( 1 \\times 7 = 7 \\)\n   - \\( 25 \\times 3 = 75 \\)\n\n   Now, substitute these values back into the expression:\n   \\[\n   1 + 7 + 9 - 75\n   \\]\n\n2. Next, we perform the addition and subtraction from left to right:\n   - \\( 1 + 7 = 8 \\)\n   - \\( 8 + 9 = 17 \\)\n   - \\( 17 - 75 = -58 \\)\n\nThus, the result of the expression \\( 1 + 1 \\times 7 + 9 - 25 \\times 3 \\) is \\(-58\\). \n\nFinal answer: \\(-58\\)",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566415,
+  "id": "chatcmpl-CdeTXmQ9LmxfD5Y6wEYssQWFzMkX5",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 206,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 244
+  }
+}
+performance: 0.35714285714285715 0.12806020814297073
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 6 + 23 \\times 11 + 14 - 18 \\times 27 \\), we need to follow the order of operations (PEMDAS/BODMAS), which means we should handle multiplication before addition and subtraction.\n\n1. Calculate the multiplications:\n   - \\( 23 \\times 11 = 253 \\)\n   - \\( 18 \\times 27 = 486 \\)\n\n2. Now, substitute these values back into the expression:\n   \\[\n   6 + 253 + 14 - 486\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - First, add \\( 6 + 253 = 259 \\)\n   - Then add \\( 259 + 14 = 273 \\)\n   - Finally, subtract \\( 273 - 486 = -213 \\)\n\nThus, the result of the expression \\( 6 + 23 \\times 11 + 14 - 18 \\times 27 \\) is \\(-213\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566421,
+  "id": "chatcmpl-CdeTdT1kXPifwulDTMMfDcvYeqhct",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 215,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 253
+  }
+}
+performance: 0.3333333333333333 0.12171612389003693
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(0 + 14 \\times 3 + 21 - 12 \\times 25\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Perform the multiplications:**\n   - \\(14 \\times 3 = 42\\)\n   - \\(12 \\times 25 = 300\\)\n\nNow we can rewrite the expression with these results:\n\n\\[\n0 + 42 + 21 - 300\n\\]\n\n2. **Perform the additions and subtractions from left to right:**\n   - First, calculate \\(0 + 42 = 42\\)\n   - Next, calculate \\(42 + 21 = 63\\)\n   - Finally, calculate \\(63 - 300 = -237\\)\n\nThe final result is \\(-237\\).\n\nTherefore, the final answer is: \\(-237\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566427,
+  "id": "chatcmpl-CdeTjD9y4Nt3rpwdJxAZB5tRRO5SM",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 249
+  }
+}
+performance: 0.3125 0.11587810136086973
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 20 \\times 11 + 4 - 6 \\times 4\\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiplication**: Calculate \\(20 \\times 11\\) and \\(6 \\times 4\\):\n   - \\(20 \\times 11 = 220\\)\n   - \\(6 \\times 4 = 24\\)\n\n2. Now the expression is:\n   \\[\n   10 + 220 + 4 - 24\n   \\]\n\n3. **Addition and Subtraction**: Perform the additions and subtractions from left to right:\n   - First, \\(10 + 220 = 230\\)\n   - Next, \\(230 + 4 = 234\\)\n   - Finally, \\(234 - 24 = 210\\)\n\nThus, the result of the expression \\(10 + 20 \\times 11 + 4 - 6 \\times 4\\) is \\(210\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566434,
+  "id": "chatcmpl-CdeTqk9glWay7PZhGvQ6NDnpysy9h",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 251
+  }
+}
+performance: 0.29411764705882354 0.11051016901502637
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 15 + 20 \\times 3 + 12 - 4 \\times 20 \\), we need to follow the order of operations, which is parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right).\n\n1. First, calculate the multiplications:\n   - \\( 20 \\times 3 = 60 \\)\n   - \\( 4 \\times 20 = 80 \\)\n\nNow we can rewrite the expression with these results:\n\\[ 15 + 60 + 12 - 80 \\]\n\n2. Next, we perform the additions and subtraction from left to right:\n   - First, \\( 15 + 60 = 75 \\)\n   - Then, \\( 75 + 12 = 87 \\)\n   - Finally, \\( 87 - 80 = 7 \\)\n\nSo, the result of the expression \\( 15 + 20 \\times 3 + 12 - 4 \\times 20 \\) is **7**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566439,
+  "id": "chatcmpl-CdeTv2ayK90CCOrAxbfKpuy0SqsoF",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.2777777777777778 0.10557179862029058
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 8 + 14 \\times 15 + 20 - 3 \\times 26 \\), we need to follow the order of operations (also known as PEMDAS/BODMAS), which states that we perform multiplication and division before addition and subtraction.\n\n1. **Calculate the multiplications:**\n   - \\( 14 \\times 15 = 210 \\)\n   - \\( 3 \\times 26 = 78 \\)\n\n2. **Substitute these values back into the expression:**\n   \\[\n   8 + 210 + 20 - 78\n   \\]\n\n3. **Perform the addition and subtraction from left to right:**\n   - First, add \\( 8 + 210 = 218 \\)\n   - Next, add \\( 218 + 20 = 238 \\)\n   - Finally, subtract \\( 238 - 78 = 160 \\)\n\nThus, the result of the expression \\( 8 + 14 \\times 15 + 20 - 3 \\times 26 \\) is \\( \\boxed{160} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566446,
+  "id": "chatcmpl-CdeU2DVFQ6INXNkLOdrEqCHLI0Kew",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 265
+  }
+}
+performance: 0.2631578947368421 0.10102261788814663
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 23 + 15 \\times 13 + 21 - 21 \\times 16 \\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. Start with the multiplication:\n   - \\( 15 \\times 13 = 195 \\)\n   - \\( 21 \\times 16 = 336 \\)\n\nNow, we can rewrite the expression with these values:\n- \\( 23 + 195 + 21 - 336 \\)\n\n2. Next, we perform the addition and subtraction from left to right:\n   - First, \\( 23 + 195 = 218 \\)\n   - Then, \\( 218 + 21 = 239 \\)\n   - Finally, \\( 239 - 336 = -97 \\)\n\nSo, the result of the expression is \\(-97\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566453,
+  "id": "chatcmpl-CdeU9efZ4e8VSnIuIBjkhoHAL6eQ7",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 176,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 214
+  }
+}
+performance: 0.3 0.10246950765959596
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(17 + 5 \\times 9 + 3 - 0 \\times 5\\), we need to follow the order of operations (PEMDAS/BODMAS), which stands for Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right).\n\n1. First, perform the multiplication:\n   - \\(5 \\times 9 = 45\\)\n   - \\(0 \\times 5 = 0\\)\n\nNow, substitute back into the expression:\n   \\(17 + 45 + 3 - 0\\)\n\n2. Next, perform the additions and subtraction from left to right:\n   - \\(17 + 45 = 62\\)\n   - \\(62 + 3 = 65\\)\n   - \\(65 - 0 = 65\\)\n\nThus, the final result of the expression \\(17 + 5 \\times 9 + 3 - 0 \\times 5\\) is **65**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566457,
+  "id": "chatcmpl-CdeUDX9eLCxWkQjxcSFbmwco3lAL1",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 215,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 253
+  }
+}
+performance: 0.2857142857142857 0.0985807941917649
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(0 + 17 \\times 18 + 4 - 2 \\times 16\\), we will follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiplication**:\n   - \\(17 \\times 18 = 306\\)\n   - \\(2 \\times 16 = 32\\)\n\nNow, substitute these values back into the expression:\n\\[\n0 + 306 + 4 - 32\n\\]\n\n2. **Addition and Subtraction**:\n   - Start with \\(0 + 306 = 306\\)\n   - Then, \\(306 + 4 = 310\\)\n   - Finally, \\(310 - 32 = 278\\)\n\nThe final answer is \\(278\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566464,
+  "id": "chatcmpl-CdeUKxXL7vYcrS27vlU4PH5IT9YPH",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 157,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 195
+  }
+}
+performance: 0.2727272727272727 0.09495144870310791
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To resolve the expression \\(29 + 3 \\times 2 + 10 - 13 \\times 16\\), we need to follow the order of operations (also known as PEMDAS/BODMAS):\n\n1. Perform the multiplications first:\n   - \\(3 \\times 2 = 6\\)\n   - \\(13 \\times 16 = 208\\)\n\nNow, we can substitute these values back into the expression:\n\n\\(29 + 6 + 10 - 208\\)\n\n2. Next, perform the addition and subtraction from left to right:\n   - First, \\(29 + 6 = 35\\)\n   - Then, \\(35 + 10 = 45\\)\n   - Finally, \\(45 - 208 = -163\\)\n\nTherefore, the result of the expression \\(29 + 3 \\times 2 + 10 - 13 \\times 16\\) is \\(-163\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566467,
+  "id": "chatcmpl-CdeUNk9o4YSfUzYSnrcCo7SXcybDe",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 193,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 231
+  }
+}
+performance: 0.2608695652173913 0.09156053715170008
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 7 + 21 \\times 9 + 0 - 10 \\times 18 \\), we need to follow the order of operations (also known as PEMDAS/BODMAS), which states we should perform multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplications:\n   - \\( 21 \\times 9 = 189 \\)\n   - \\( 10 \\times 18 = 180 \\)\n\nNow, we can substitute these values back into the expression:\n\n\\[\n7 + 189 + 0 - 180\n\\]\n\n2. Next, perform the additions and subtractions from left to right:\n   - \\( 7 + 189 = 196 \\)\n   - \\( 196 + 0 = 196 \\)\n   - \\( 196 - 180 = 16 \\)\n\nThus, the result of the expression \\( 7 + 21 \\times 9 + 0 - 10 \\times 18 \\) is \\( \\boxed{16} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566472,
+  "id": "chatcmpl-CdeUSKJ7PZhKmf1J7QFpfEl5ZXBZh",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 214,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 252
+  }
+}
+performance: 0.25 0.08838834764831845
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(11 + 26 \\times 23 + 27 - 2 \\times 25\\), we follow the order of operations (PEMDAS/BODMAS).\n\n1. First, handle the multiplication operations:\n   - \\(26 \\times 23 = 598\\)\n   - \\(2 \\times 25 = 50\\)\n\n2. Substitute these products back into the expression:\n   \\[\n   11 + 598 + 27 - 50\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - First, \\(11 + 598 = 609\\)\n   - Then, \\(609 + 27 = 636\\)\n   - Finally, \\(636 - 50 = 586\\)\n\nThus, the result of the expression \\(11 + 26 \\times 23 + 27 - 2 \\times 25\\) is \\(586\\). \n\n**Final Answer:** 586",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566477,
+  "id": "chatcmpl-CdeUX83o93qjnTfb2Jdf8iLWdy0d3",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 199,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 237
+  }
+}
+performance: 0.28 0.08979977728257459
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(2 + 3 \\times 27 + 3 - 18 \\times 14\\), we need to follow the order of operations, also known as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we will perform the multiplications:\n   - \\(3 \\times 27 = 81\\)\n   - \\(18 \\times 14 = 252\\)\n\nNow we can rewrite the expression with these results:\n\\[2 + 81 + 3 - 252\\]\n\n2. Next, we perform the additions and the subtraction from left to right:\n   - First, calculate \\(2 + 81 = 83\\)\n   - Then, \\(83 + 3 = 86\\)\n   - Finally, \\(86 - 252 = -166\\)\n\nSo the final result of the expression \\(2 + 3 \\times 27 + 3 - 18 \\times 14\\) is \\(-166\\). \n\n**Answer: -166**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566483,
+  "id": "chatcmpl-CdeUdbonwWZAxfgJ79mFLopdNeTX9",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 228,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 266
+  }
+}
+performance: 0.2692307692307692 0.08698929247330862
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(3 + 20 \\times 17 + 18 - 27 \\times 14\\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplications:\n   - \\(20 \\times 17 = 340\\)\n   - \\(27 \\times 14 = 378\\)\n\nNow we can rewrite the expression with these results:\n\\[\n3 + 340 + 18 - 378\n\\]\n\n2. Next, we perform the additions and subtractions from left to right:\n   - First, calculate \\(3 + 340 = 343\\)\n   - Next, \\(343 + 18 = 361\\)\n   - Finally, \\(361 - 378 = -17\\)\n\nTherefore, the result of the expression \\(3 + 20 \\times 17 + 18 - 27 \\times 14\\) is \\(\\mathbf{-17}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566490,
+  "id": "chatcmpl-CdeUkfMHw06FzEIlpQRV6IuDrjwK4",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 229,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 267
+  }
+}
+performance: 0.25925925925925924 0.08433704334123125
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 9 + 26 \\times 1 + 4 - 10 \\times 22 \\), we need to follow the order of operations, which prioritizes multiplication before addition and subtraction.\n\n1. Calculate the multiplication parts:\n   - \\( 26 \\times 1 = 26 \\)\n   - \\( 10 \\times 22 = 220 \\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   9 + 26 + 4 - 220\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - \\( 9 + 26 = 35 \\)\n   - \\( 35 + 4 = 39 \\)\n   - \\( 39 - 220 = -181 \\)\n\nThus, the final result is \\(-181\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566500,
+  "id": "chatcmpl-CdeUuKaLlAKWwxAsqlNUerQrzcR83",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 211
+  }
+}
+performance: 0.2857142857142857 0.08537347209531383
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 11 + 8 \\times 11 + 2 - 19 \\times 16 \\), we need to follow the order of operations (PEMDAS/BODMAS), which dictates that we perform multiplication before addition and subtraction.\n\n1. First, calculate the multiplications:\n   - \\( 8 \\times 11 = 88 \\)\n   - \\( 19 \\times 16 = 304 \\)\n\nNow, substitute these values back into the expression:\n\\[\n11 + 88 + 2 - 304\n\\]\n\n2. Next, perform the addition:\n   - \\( 11 + 88 = 99 \\)\n   - \\( 99 + 2 = 101 \\)\n\nSo the expression now looks like this:\n\\[\n101 - 304\n\\]\n\n3. Finally, perform the subtraction:\n\\[\n101 - 304 = -203\n\\]\n\nTherefore, the result of the expression \\( 11 + 8 \\times 11 + 2 - 19 \\times 16 \\) is \\(-203\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566506,
+  "id": "chatcmpl-CdeV0OV4v623Akz94rSsTG5rdy6Od",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 221,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 259
+  }
+}
+performance: 0.27586206896551724 0.08299609211231937
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(0 + 22 \\times 0 + 6 - 19 \\times 14\\), we follow the order of operations, which is multiplication first, then addition and subtraction:\n\n1. Calculate \\(22 \\times 0\\):\n   \\[\n   22 \\times 0 = 0\n   \\]\n\n2. Calculate \\(19 \\times 14\\):\n   \\[\n   19 \\times 14 = 266\n   \\]\n\nNow we substitute these results back into the expression:\n\\[\n0 + 0 + 6 - 266\n\\]\n\n3. Simplify from left to right:\n   - First, \\(0 + 0 = 0\\)\n   - Then, \\(0 + 6 = 6\\)\n   - Finally, \\(6 - 266 = -260\\)\n\nThus, the result of the expression \\(0 + 22 \\times 0 + 6 - 19 \\times 14\\) is \\(-260\\).\n\nFinal answer: \\(-260\\)",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566512,
+  "id": "chatcmpl-CdeV6scTnmwqFsuNpEBVvqqjY16E5",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.26666666666666666 0.08073734277593311
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 19 \\times 24 + 28 - 8 \\times 13\\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplication:\n   - \\(19 \\times 24 = 456\\)\n   - \\(8 \\times 13 = 104\\)\n\n2. Now, substitute these results back into the expression:\n   \\[\n   10 + 456 + 28 - 104\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - First addition: \\(10 + 456 = 466\\)\n   - Second addition: \\(466 + 28 = 494\\)\n   - Finally, subtraction: \\(494 - 104 = 390\\)\n\nThus, the result of the entire expression \\(10 + 19 \\times 24 + 28 - 8 \\times 13\\) is \\(390\\).\n\n**Answer: 390**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566517,
+  "id": "chatcmpl-CdeVBwnwf0djEp605S0poZMSsF8t4",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 276
+  }
+}
+performance: 0.25806451612903225 0.07858983387512679
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(24 + 29 \\times 2 + 3 - 2 \\times 11\\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. **Multiplication** first:\n   - \\(29 \\times 2 = 58\\)\n   - \\(2 \\times 11 = 22\\)\n\nNow, we can rewrite the expression with these results:\n\\[\n24 + 58 + 3 - 22\n\\]\n\n2. **Addition and subtraction** will then be done from left to right:\n   - First, \\(24 + 58 = 82\\)\n   - Next, \\(82 + 3 = 85\\)\n   - Finally, \\(85 - 22 = 63\\)\n\nSo, the final result is \\(63\\).\n\n**Answer:** 63",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566523,
+  "id": "chatcmpl-CdeVHd2mjA6sbhUcSvxjQ0wHDpPxm",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 174,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 212
+  }
+}
+performance: 0.28125 0.07948042948974923
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 13 + 16 \\times 8 + 8 - 19 \\times 8 \\), we need to follow the order of operations (PEMDAS/BODMAS), which states we should perform multiplication before addition and subtraction.\n\n1. First, calculate the multiplication parts:\n   - \\( 16 \\times 8 = 128 \\)\n   - \\( 19 \\times 8 = 152 \\)\n\n2. Substitute these values back into the expression:\n   \\[\n   13 + 128 + 8 - 152\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - First, add \\( 13 + 128 = 141 \\)\n   - Then, add \\( 141 + 8 = 149 \\)\n   - Finally, subtract \\( 149 - 152 = -3 \\)\n\nTherefore, the result of the expression \\( 13 + 16 \\times 8 + 8 - 19 \\times 8 \\) is \\(-3\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566528,
+  "id": "chatcmpl-CdeVM6hkuumizxly45hXc2D9GjMlE",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.2727272727272727 0.07752753322022198
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 26 + 2 \\times 24 + 20 - 3 \\times 12 \\), we follow the order of operations (PEMDAS/BODMAS), which prioritizes multiplication and division before addition and subtraction.\n\n1. Calculate the multiplication:\n   - \\( 2 \\times 24 = 48 \\)\n   - \\( 3 \\times 12 = 36 \\)\n\nNow we rewrite the expression with these results:\n\\[\n26 + 48 + 20 - 36\n\\]\n\n2. Next, perform the addition and subtraction from left to right:\n   - First, \\( 26 + 48 = 74 \\)\n   - Next, \\( 74 + 20 = 94 \\)\n   - Finally, \\( 94 - 36 = 58 \\)\n\nThus, the result of the expression \\( 26 + 2 \\times 24 + 20 - 3 \\times 12 \\) is \\( \\boxed{58} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566534,
+  "id": "chatcmpl-CdeVSAvLOtdHQBQ0yWwBQ9yP6ZYgT",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 206,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 244
+  }
+}
+performance: 0.2647058823529412 0.07566114050404801
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(29 + 14 \\times 0 + 4 - 3 \\times 13\\), we need to follow the order of operations (PEMDAS/BODMAS). This means we handle multiplication and division before addition and subtraction.\n\n1. Calculate \\(14 \\times 0 = 0\\).\n2. Calculate \\(3 \\times 13 = 39\\).\n\nNow we can rewrite the expression with these results:\n\n\\[\n29 + 0 + 4 - 39\n\\]\n\nNext, simplify this step-by-step:\n\n1. Add \\(29 + 0 = 29\\).\n2. Then add \\(29 + 4 = 33\\).\n3. Finally, subtract \\(33 - 39 = -6\\).\n\nThus, the final result of the expression is \\(-6\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566541,
+  "id": "chatcmpl-CdeVZIWZghqA7PCj5XpMdN1Mza76A",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 170,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 208
+  }
+}
+performance: 0.2571428571428571 0.07387642348897155
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(11 + 28 \\times 22 + 13 - 25 \\times 13\\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. Calculate the multiplication terms first:\n   - \\(28 \\times 22 = 616\\)\n   - \\(25 \\times 13 = 325\\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   11 + 616 + 13 - 325\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - \\(11 + 616 = 627\\)\n   - \\(627 + 13 = 640\\)\n   - \\(640 - 325 = 315\\)\n\nTherefore, the result of the expression \\(11 + 28 \\times 22 + 13 - 25 \\times 13\\) is \\(315\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566546,
+  "id": "chatcmpl-CdeVeeh1Gd7SwwipR0tJv8I70IWtv",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 188,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 226
+  }
+}
+performance: 0.25 0.07216878364870322
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 11 + 24 \\times 16 + 24 - 29 \\times 21 \\), we need to follow the order of operations (PEMDAS/BODMAS), which states that we should perform multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplication parts:\n   - \\( 24 \\times 16 = 384 \\)\n   - \\( 29 \\times 21 = 609 \\)\n\n2. Substitute these results back into the expression:\n   \\( 11 + 384 + 24 - 609 \\)\n\n3. Now, we can perform the addition and subtraction from left to right:\n   - \\( 11 + 384 = 395 \\)\n   - \\( 395 + 24 = 419 \\)\n   - \\( 419 - 609 = -190 \\)\n\nTherefore, the result of the expression \\( 11 + 24 \\times 16 + 24 - 29 \\times 21 \\) is \\(-190\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566552,
+  "id": "chatcmpl-CdeVk5TARqcKyKZguO4hxRhsdZqVS",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 208,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 246
+  }
+}
+performance: 0.24324324324324326 0.07053386532986596
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 14 + 25 \\times 16 + 28 - 25 \\times 22 \\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplication:\n   - \\( 25 \\times 16 = 400 \\)\n   - \\( 25 \\times 22 = 550 \\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   14 + 400 + 28 - 550\n   \\]\n\n3. Next, carry out the addition and subtraction from left to right:\n   - First, add \\( 14 + 400 = 414 \\)\n   - Then, add \\( 414 + 28 = 442 \\)\n   - Finally, subtract \\( 442 - 550 = -108 \\)\n\nThus, the result of the expression is \\(-108\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566557,
+  "id": "chatcmpl-CdeVpegf5LKXEwvAUhLwYivFrBcTP",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 251
+  }
+}
+performance: 0.2631578947368421 0.07143377816192592
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 21 + 29 \\times 19 + 1 - 8 \\times 0 \\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, handle the multiplications:\n   - \\( 29 \\times 19 = 551 \\)\n   - \\( 8 \\times 0 = 0 \\)\n\nNow the expression can be rewritten as:\n\\[ 21 + 551 + 1 - 0 \\]\n\n2. Next, perform the additions and subtraction from left to right:\n   - Start with \\( 21 + 551 = 572 \\)\n   - Then, add \\( 1 \\): \\( 572 + 1 = 573 \\)\n   - Finally, subtract \\( 0 \\): \\( 573 - 0 = 573 \\)\n\nSo, the final result is:\n\\[ \\boxed{573} \\]",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566562,
+  "id": "chatcmpl-CdeVuGwptIPGzbP6urRRR3m8Fme1z",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.28205128205128205 0.07205737677223016
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(4 + 27 \\times 27 + 25 - 6 \\times 21\\), we need to follow the order of operations (also known as PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division, Addition and Subtraction).\n\n1. First, we calculate the multiplications:\n   - \\(27 \\times 27 = 729\\)\n   - \\(6 \\times 21 = 126\\)\n\n2. Now, we can substitute these values back into the expression:\n   \\[\n   4 + 729 + 25 - 126\n   \\]\n\n3. Next, we perform the additions and subtraction from left to right:\n   - First, add \\(4 + 729 = 733\\)\n   - Then, add \\(733 + 25 = 758\\)\n   - Finally, subtract \\(758 - 126 = 632\\)\n\nTherefore, the result of the expression \\(4 + 27 \\times 27 + 25 - 6 \\times 21\\) is \\(632\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566567,
+  "id": "chatcmpl-CdeVzZaGnvxXkXaySIaHBW2YM7ly5",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 227,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 265
+  }
+}
+performance: 0.275 0.0706001062322147
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 13 + 7 \\times 24 + 24 - 15 \\times 9 \\), we need to follow the order of operations (PEMDAS/BODMAS), which means we will first perform multiplication before addition and subtraction.\n\n1. Calculate the multiplication parts:\n   - \\( 7 \\times 24 = 168 \\)\n   - \\( 15 \\times 9 = 135 \\)\n\n2. Substitute these values back into the expression:\n   \\( 13 + 168 + 24 - 135 \\)\n\n3. Now perform the addition and subtraction from left to right:\n   - First, \\( 13 + 168 = 181 \\)\n   - Next, \\( 181 + 24 = 205 \\)\n   - Finally, \\( 205 - 135 = 70 \\)\n\nThus, the result of the expression \\( 13 + 7 \\times 24 + 24 - 15 \\times 9 \\) is \\( 70 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566576,
+  "id": "chatcmpl-CdeW8MMRS9TxdnnXgZ9wdG0sEBSDV",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 245
+  }
+}
+performance: 0.2926829268292683 0.07105814025765192
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(18 + 8 \\times 22 + 15 - 11 \\times 6\\), we need to follow the order of operations (often remembered by the acronym PEMDAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we handle the multiplications:\n   - \\(8 \\times 22 = 176\\)\n   - \\(11 \\times 6 = 66\\)\n\n2. Next, substitute these multiplication results back into the expression:\n   \\[\n   18 + 176 + 15 - 66\n   \\]\n\n3. Now, we perform the additions and subtraction from left to right:\n   - \\(18 + 176 = 194\\)\n   - \\(194 + 15 = 209\\)\n   - \\(209 - 66 = 143\\)\n\nThus, the result of the expression \\(18 + 8 \\times 22 + 15 - 11 \\times 6\\) is \\(143\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566581,
+  "id": "chatcmpl-CdeWDfkPoGLxmaSdI4UBzDPmgQnix",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 222,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 260
+  }
+}
+performance: 0.2857142857142857 0.06970714806775236
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 15 + 29 \\times 25 + 1 - 22 \\times 12 \\), we will follow the order of operations, which dictates that we perform multiplication before addition and subtraction.\n\n1. First, calculate the multiplication:\n   - \\( 29 \\times 25 = 725 \\)\n   - \\( 22 \\times 12 = 264 \\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   15 + 725 + 1 - 264\n   \\]\n\n3. Next, perform the addition:\n   - \\( 15 + 725 = 740 \\)\n   - Then add \\( 1 \\): \\( 740 + 1 = 741 \\)\n\n4. Finally, subtract \\( 264 \\):\n   \\[\n   741 - 264 = 477\n   \\]\n\nThus, the result of the expression \\( 15 + 29 \\times 25 + 1 - 22 \\times 12 \\) is \\( \\boxed{477} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566587,
+  "id": "chatcmpl-CdeWJ4DZYUisRfftX3zuLr5DKk2jA",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.27906976744186046 0.068401997852947
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 24 + 29 \\times 24 + 3 - 18 \\times 15 \\), we follow the order of operations (PEMDAS/BODMAS). This means we handle multiplication before addition and subtraction.\n\n1. Calculate the multiplication:\n   - \\( 29 \\times 24 = 696 \\)\n   - \\( 18 \\times 15 = 270 \\)\n\n2. Substitute back into the expression:\n   \\( 24 + 696 + 3 - 270 \\)\n\n3. Now perform the addition and subtraction from left to right:\n   - First, add \\( 24 + 696 = 720 \\)\n   - Then, add \\( 720 + 3 = 723 \\)\n   - Finally, subtract \\( 723 - 270 = 453 \\)\n\nTherefore, the result of the expression \\( 24 + 29 \\times 24 + 3 - 18 \\times 15 \\) is \\( \\boxed{453} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566593,
+  "id": "chatcmpl-CdeWP8gHcNqRwiMuw2cdlW3Dint3H",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 206,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 244
+  }
+}
+performance: 0.2727272727272727 0.06714081326145421
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To find the result of the expression \\(3 + 10 \\times 12 + 6 - 3 \\times 22\\), we need to follow the order of operations, which is multiplication before addition and subtraction.\n\n1. First, we calculate the multiplications:\n   - \\(10 \\times 12 = 120\\)\n   - \\(3 \\times 22 = 66\\)\n\n2. Now we can substitute these values back into the expression:\n   \\[\n   3 + 120 + 6 - 66\n   \\]\n\n3. Next, we perform the addition and subtraction from left to right:\n   - \\(3 + 120 = 123\\)\n   - \\(123 + 6 = 129\\)\n   - \\(129 - 66 = 63\\)\n\nThus, the result of the expression \\(3 + 10 \\times 12 + 6 - 3 \\times 22\\) is \\(63\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566598,
+  "id": "chatcmpl-CdeWUhSz7FwDR5x6s7dQY6XKZ8lqn",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 235
+  }
+}
+performance: 0.26666666666666666 0.06592176432973924
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 29 + 5 \\times 23 + 11 - 0 \\times 11 \\), we should follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiplication first**:\n   - Calculate \\( 5 \\times 23 = 115 \\)\n   - Calculate \\( 0 \\times 11 = 0 \\)\n\n2. **Substituting back into the expression**:\n   - The expression now becomes:\n     \\[\n     29 + 115 + 11 - 0\n     \\]\n\n3. **Now perform addition and subtraction from left to right**:\n   - First, add \\( 29 + 115 = 144 \\)\n   - Next, add \\( 144 + 11 = 155 \\)\n   - Finally, subtract \\( 155 - 0 = 155 \\)\n\nThus, the result of the expression \\( 29 + 5 \\times 23 + 11 - 0 \\times 11 \\) is \\( \\boxed{155} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566604,
+  "id": "chatcmpl-CdeWa2dMwM0t1ZEICMkB4A5WFVbRs",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 217,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 255
+  }
+}
+performance: 0.2608695652173913 0.06474307670904993
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(8 + 20 \\times 10 + 22 - 11 \\times 5\\), we need to follow the order of operations (also known as PEMDAS/BODMAS).\n\n1. **Multiplication**:\n    - \\(20 \\times 10 = 200\\)\n    - \\(11 \\times 5 = 55\\)\n\nNow, substituting these values back into the expression gives us:\n\n\\(8 + 200 + 22 - 55\\)\n\n2. **Addition and Subtraction** (from left to right):\n    - First, add \\(8 + 200 = 208\\)\n    - Next, add \\(208 + 22 = 230\\)\n    - Finally, subtract \\(230 - 55 = 175\\)\n\nSo, the final result of the expression \\(8 + 20 \\times 10 + 22 - 11 \\times 5\\) is **175**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566609,
+  "id": "chatcmpl-CdeWfR151CmkmZzb5rRUYv4fBEEQ0",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 196,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 234
+  }
+}
+performance: 0.2553191489361702 0.06360303771727835
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(29 + 28 \\times 15 + 8 - 2 \\times 27\\), we need to follow the order of operations (PEMDAS/BODMAS), which states that we should perform multiplication and division before addition and subtraction.\n\n1. Calculate the products:\n   - \\(28 \\times 15 = 420\\)\n   - \\(2 \\times 27 = 54\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   29 + 420 + 8 - 54\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - First, add \\(29 + 420 = 449\\)\n   - Next, add \\(449 + 8 = 457\\)\n   - Finally, subtract \\(457 - 54 = 403\\)\n\nThus, the result of the expression \\(29 + 28 \\times 15 + 8 - 2 \\times 27\\) is **403**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566616,
+  "id": "chatcmpl-CdeWmF90yKYGn0TnVqQL8TaRws6pj",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 208,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 246
+  }
+}
+performance: 0.25 0.0625
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(19 + 25 \\times 23 + 21 - 19 \\times 14\\), we need to follow the order of operations (also known as PEMDAS/BODMAS), where we perform multiplication before addition and subtraction.\n\n1. Calculate \\(25 \\times 23\\):\n   \\[\n   25 \\times 23 = 575\n   \\]\n\n2. Calculate \\(19 \\times 14\\):\n   \\[\n   19 \\times 14 = 266\n   \\]\n\nNow, substituting these values back into the expression, we have:\n\\[\n19 + 575 + 21 - 266\n\\]\n\n3. Start with the addition:\n   \\[\n   19 + 575 = 594\n   \\]\n4. Continue with the addition of 21:\n   \\[\n   594 + 21 = 615\n   \\]\n\n5. Finally, subtract 266:\n   \\[\n   615 - 266 = 349\n   \\]\n\nTherefore, the result of the expression \\(19 + 25 \\times 23 + 21 - 19 \\times 14\\) is **349**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566622,
+  "id": "chatcmpl-CdeWsBpMtnywNDawQTj76Ob1qKPkC",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 244,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 282
+  }
+}
+performance: 0.24489795918367346 0.06143238339855824
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(20 + 21 \\times 29 + 3 - 3 \\times 7\\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplication:\n   - \\(21 \\times 29 = 609\\)\n   - \\(3 \\times 7 = 21\\)\n\nNow we can rewrite the expression with these results:\n\\[\n20 + 609 + 3 - 21\n\\]\n\n2. Next, perform the addition and subtraction from left to right:\n   - Starting with \\(20 + 609 = 629\\)\n   - Then \\(629 + 3 = 632\\)\n   - Finally, \\(632 - 21 = 611\\)\n\nThus, the result of the expression \\(20 + 21 \\times 29 + 3 - 3 \\times 7\\) is \\(\\boxed{611}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566629,
+  "id": "chatcmpl-CdeWztolTsTzusUzi2tzGcEd2gumv",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 261
+  }
+}
+performance: 0.24 0.060398675482166
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(9 + 9 \\times 9 + 23 - 3 \\times 14\\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiply first**:\n   - Calculate \\(9 \\times 9 = 81\\)\n   - Calculate \\(3 \\times 14 = 42\\)\n\nNow substitute these values back into the expression:\n\n\\(9 + 81 + 23 - 42\\)\n\n2. **Now, perform addition and subtraction from left to right**:\n   - First, calculate \\(9 + 81 = 90\\)\n   - Next, calculate \\(90 + 23 = 113\\)\n   - Finally, calculate \\(113 - 42 = 71\\)\n\nThus, the result of the original expression \\(9 + 9 \\times 9 + 23 - 3 \\times 14\\) is:\n\n**71**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566635,
+  "id": "chatcmpl-CdeX5K9v0BWCjjmmFtJZWohnOpIwB",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 192,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 230
+  }
+}
+performance: 0.23529411764705882 0.05939743109381191
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 26 + 18 \\times 12 + 3 - 9 \\times 10 \\), we need to follow the order of operations (PEMDAS/BODMAS). This means we first do the multiplications and then the additions and subtractions.\n\n1. Calculate the multiplications:\n   - \\( 18 \\times 12 = 216 \\)\n   - \\( 9 \\times 10 = 90 \\)\n\n2. Substitute these values back into the expression:\n   \\[\n   26 + 216 + 3 - 90\n   \\]\n\n3. Now perform the additions and subtraction from left to right:\n   - \\( 26 + 216 = 242 \\)\n   - \\( 242 + 3 = 245 \\)\n   - \\( 245 - 90 = 155 \\)\n\nThus, the final result is \\( 155 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566642,
+  "id": "chatcmpl-CdeXCnLYXs8E4hkR3BA7qscY0QCDx",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 185,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 223
+  }
+}
+performance: 0.25 0.06004805767690768
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(27 + 13 \\times 7 + 7 - 29 \\times 21\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Calculate the multiplication parts first:**\n   - \\(13 \\times 7 = 91\\)\n   - \\(29 \\times 21 = 609\\)\n\n2. **Substitute these values back into the expression:**\n   \\[\n   27 + 91 + 7 - 609\n   \\]\n\n3. **Now perform the addition and subtraction from left to right:**\n   - First, add \\(27 + 91 = 118\\)\n   - Next, add \\(118 + 7 = 125\\)\n   - Then, subtract \\(125 - 609 = -484\\)\n\nThus, the final result is \\(-484\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566647,
+  "id": "chatcmpl-CdeXHhqkBuvpfLAvkWxSP54OsZ9Bb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 209,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 247
+  }
+}
+performance: 0.24528301886792453 0.05910005260077504
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(1 + 12 \\times 2 + 2 - 24 \\times 1\\), we need to follow the order of operations (PEMDAS/BODMAS rules: Parentheses/Brackets, Exponents/Orders, Multiplication and Division from left to right, Addition and Subtraction from left to right).\n\n1. First, we deal with the multiplication:\n   - \\(12 \\times 2 = 24\\)\n   - \\(24 \\times 1 = 24\\)\n\n2. Now substitute these values back into the expression:\n   \\(1 + 24 + 2 - 24\\)\n\n3. Next, we perform the addition and subtraction from left to right:\n   - \\(1 + 24 = 25\\)\n   - \\(25 + 2 = 27\\)\n   - \\(27 - 24 = 3\\)\n\nThus, the result of the expression \\(1 + 12 \\times 2 + 2 - 24 \\times 1\\) is \\(3\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566654,
+  "id": "chatcmpl-CdeXO5RH1Yc6i8DrYeESf2EZ1MS6V",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 216,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 254
+  }
+}
+performance: 0.24074074074074073 0.05817989924114688
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(5 + 8 \\times 4 + 0 - 11 \\times 2\\), we need to follow the order of operations, which is typically remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we handle the multiplication:\n   - \\(8 \\times 4 = 32\\)\n   - \\(11 \\times 2 = 22\\)\n\nNow, we can rewrite the expression with these results:\n\\[5 + 32 + 0 - 22\\]\n\n2. Next, we perform the addition and subtraction from left to right:\n   - \\(5 + 32 = 37\\)\n   - \\(37 + 0 = 37\\)\n   - \\(37 - 22 = 15\\)\n\nSo, the final result of the expression \\(5 + 8 \\times 4 + 0 - 11 \\times 2\\) is \\(15\\).\n\n**Answer: 15**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566660,
+  "id": "chatcmpl-CdeXUeaEM7uBiwwhfcUFGCftqAzKn",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 222,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 260
+  }
+}
+performance: 0.23636363636363636 0.05728649972147094
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 5 + 21 \\times 16 + 8 - 29 \\times 1 \\), we need to follow the order of operations, which is parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right). \n\n1. First, compute the multiplication:\n   - \\( 21 \\times 16 = 336 \\)\n   - \\( 29 \\times 1 = 29 \\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   5 + 336 + 8 - 29\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - \\( 5 + 336 = 341 \\)\n   - \\( 341 + 8 = 349 \\)\n   - \\( 349 - 29 = 320 \\)\n\nThus, the final result is \\( \\boxed{320} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566669,
+  "id": "chatcmpl-CdeXduEPiHwZ0EX0BariLqJvfANf3",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 195,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 233
+  }
+}
+performance: 0.25 0.057863756235784464
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 17 + 16 \\times 3 + 24 - 27 \\times 8 \\), we need to follow the order of operations, which is parentheses, exponents, multiplication and division (from left to right), and addition and subtraction (from left to right).\n\n1. First, we will perform the multiplications:\n   - \\( 16 \\times 3 = 48 \\)\n   - \\( 27 \\times 8 = 216 \\)\n\n2. Now we can rewrite the expression with these values:\n   \\( 17 + 48 + 24 - 216 \\)\n\n3. Next, we will perform the additions and subtractions from left to right:\n   - \\( 17 + 48 = 65 \\)\n   - \\( 65 + 24 = 89 \\)\n   - \\( 89 - 216 = -127 \\)\n\nThus, the result of the expression \\( 17 + 16 \\times 3 + 24 - 27 \\times 8 \\) is \\(-127\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566674,
+  "id": "chatcmpl-CdeXisjumba0t55VwCn0NxQk7EER4",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 256
+  }
+}
+performance: 0.24561403508771928 0.057014584292344975
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To calculate the expression \\(20 + 4 \\times 16 + 25 - 3 \\times 7\\), we need to follow the order of operations, which states that we should perform multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplication parts:\n   - \\(4 \\times 16 = 64\\)\n   - \\(3 \\times 7 = 21\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   20 + 64 + 25 - 21\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - \\(20 + 64 = 84\\)\n   - \\(84 + 25 = 109\\)\n   - \\(109 - 21 = 88\\)\n\nThus, the result of the expression \\(20 + 4 \\times 16 + 25 - 3 \\times 7\\) is \\(88\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566681,
+  "id": "chatcmpl-CdeXpgvvuLt2TZseG3O1CBFbOXk8h",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 195,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 233
+  }
+}
+performance: 0.2413793103448276 0.056188619979598856
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To evaluate the expression \\( 28 + 3 * 18 + 29 - 17 * 1 \\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. Perform the multiplication:\n   - \\( 3 * 18 = 54 \\)\n   - \\( 17 * 1 = 17 \\)\n\nNow, substitute these values back into the expression:\n\\[ 28 + 54 + 29 - 17 \\]\n\n2. Now, perform the additions and subtractions from left to right:\n   - First, add \\( 28 + 54 = 82 \\)\n   - Next, add \\( 82 + 29 = 111 \\)\n   - Finally, subtract \\( 111 - 17 = 94 \\)\n\nSo, the result of the expression \\( 28 + 3 * 18 + 29 - 17 * 1 \\) is \\( 94 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566687,
+  "id": "chatcmpl-CdeXvsdctknFDshNcNPQOShiFnVAo",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 192,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 230
+  }
+}
+performance: 0.2542372881355932 0.05668836748175638
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(18 + 17 \\times 29 + 20 - 29 \\times 2\\), we need to follow the order of operations, which dictates that multiplication should be done before addition and subtraction.\n\n1. Calculate \\(17 \\times 29\\):\n   \\[\n   17 \\times 29 = 493\n   \\]\n\n2. Calculate \\(29 \\times 2\\):\n   \\[\n   29 \\times 2 = 58\n   \\]\n\n3. Substitute these results back into the expression:\n   \\[\n   18 + 493 + 20 - 58\n   \\]\n\n4. Now perform the additions and subtractions from left to right:\n   \\[\n   18 + 493 = 511\n   \\]\n   \\[\n   511 + 20 = 531\n   \\]\n   \\[\n   531 - 58 = 473\n   \\]\n\nThus, the final result is \\(473\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566695,
+  "id": "chatcmpl-CdeY3FV3Gz6EZVc7L1x4ZySyzPxBU",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 203,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 241
+  }
+}
+performance: 0.26666666666666666 0.057089922571845024
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(5 + 5 \\times 12 + 12 - 21 \\times 29\\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we handle the multiplication:\n   - \\(5 \\times 12 = 60\\)\n   - \\(21 \\times 29 = 609\\)\n\nNow the expression becomes:\n\\[\n5 + 60 + 12 - 609\n\\]\n\n2. Next, we perform the addition and subtraction from left to right:\n   - \\(5 + 60 = 65\\)\n   - \\(65 + 12 = 77\\)\n   - \\(77 - 609 = -532\\)\n\nSo, the result of the expression \\(5 + 5 \\times 12 + 12 - 21 \\times 29\\) is \\(-532\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566702,
+  "id": "chatcmpl-CdeYAj6yvxGrer45hT0g8rfRLnTG6",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 251
+  }
+}
+performance: 0.26229508196721313 0.05632114763742965
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(2 + 15 \\times 27 + 21 - 7 \\times 7\\), we should follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplications:\n   - \\(15 \\times 27 = 405\\)\n   - \\(7 \\times 7 = 49\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   2 + 405 + 21 - 49\n   \\]\n\n3. Next, proceed with the additions and subtraction from left to right:\n   - \\(2 + 405 = 407\\)\n   - \\(407 + 21 = 428\\)\n   - \\(428 - 49 = 379\\)\n\nThus, the final result is **379**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566709,
+  "id": "chatcmpl-CdeYHV23nYKZA7WRm9FdCpOCsL93p",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 232
+  }
+}
+performance: 0.25806451612903225 0.05557140446542638
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 11 + 22 \\times 17 + 6 - 7 \\times 18 \\), we must follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplication operations:\n   - \\( 22 \\times 17 = 374 \\)\n   - \\( 7 \\times 18 = 126 \\)\n\nNow, we can rewrite the expression:\n\\[ 11 + 374 + 6 - 126 \\]\n\n2. Next, we perform the addition and subtraction from left to right:\n   - \\( 11 + 374 = 385 \\)\n   - \\( 385 + 6 = 391 \\)\n   - \\( 391 - 126 = 265 \\)\n\nTherefore, the result of the expression \\( 11 + 22 \\times 17 + 6 - 7 \\times 18 \\) is \\( \\boxed{265} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566714,
+  "id": "chatcmpl-CdeYMSEjGogGK2kuwABh8OBwJsDOy",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 225,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 263
+  }
+}
+performance: 0.25396825396825395 0.054840082077753746
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 28 + 11 \\times 19 + 17 - 9 \\times 29 \\), we need to follow the order of operations, which is to perform multiplication before addition and subtraction.\n\n1. Calculate \\( 11 \\times 19 \\):\n   \\[\n   11 \\times 19 = 209\n   \\]\n\n2. Calculate \\( 9 \\times 29 \\):\n   \\[\n   9 \\times 29 = 261\n   \\]\n\nNow, we can substitute these results back into the expression:\n\\[\n28 + 209 + 17 - 261\n\\]\n\nNext, we perform the addition and subtraction from left to right:\n1. Calculate \\( 28 + 209 \\):\n   \\[\n   28 + 209 = 237\n   \\]\n\n2. Add \\( 17 \\) to \\( 237 \\):\n   \\[\n   237 + 17 = 254\n   \\]\n\n3. Finally, subtract \\( 261 \\) from \\( 254 \\):\n   \\[\n   254 - 261 = -7\n   \\]\n\nTherefore, the result of the expression \\( 28 + 11 \\times 19 + 17 - 9 \\times 29 \\) is \\(\\boxed{-7}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566722,
+  "id": "chatcmpl-CdeYUpgGmolezHjGUvWhZSlOXwNQH",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 269,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 307
+  }
+}
+performance: 0.25 0.05412658773652741
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(14 + 21 \\times 9 + 25 - 18 \\times 0\\), we need to follow the order of operations, which is often abbreviated as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Multiplication first**:\n   - Calculate \\(21 \\times 9 = 189\\)\n   - Calculate \\(18 \\times 0 = 0\\)\n\n2. **Replace the multiplications in the expression**:\n   - The expression now looks like: \\(14 + 189 + 25 - 0\\)\n\n3. **Now, perform addition and subtraction from left to right**:\n   - First, add \\(14 + 189 = 203\\)\n   - Then add \\(203 + 25 = 228\\)\n   - Finally, subtract \\(228 - 0 = 228\\)\n\nSo, the result of the expression \\(14 + 21 \\times 9 + 25 - 18 \\times 0\\) is \\(228\\). \n\n**Answer: 228**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566730,
+  "id": "chatcmpl-CdeYc8eKbJiDubJEdGwjoZFBT7ceG",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 238,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 276
+  }
+}
+performance: 0.24615384615384617 0.05343034720765903
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 27 + 9 \\times 28 + 11 - 17 \\times 9 \\), we need to follow the order of operations, which is to perform multiplication before addition and subtraction.\n\n1. Calculate the multiplication components:\n   - \\( 9 \\times 28 = 252 \\)\n   - \\( 17 \\times 9 = 153 \\)\n\nNow, substitute these values back into the expression:\n\n\\[\n27 + 252 + 11 - 153\n\\]\n\n2. Next, perform the additions and subtraction from left to right:\n   - \\( 27 + 252 = 279 \\)\n   - \\( 279 + 11 = 290 \\)\n   - \\( 290 - 153 = 137 \\)\n\nTherefore, the final result of the expression \\( 27 + 9 \\times 28 + 11 - 17 \\times 9 \\) is \\( \\boxed{137} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566740,
+  "id": "chatcmpl-CdeYmeEEzpru4JjxKTVjL7tdgb5Cv",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 235
+  }
+}
+performance: 0.24242424242424243 0.05275080483505994
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 26 + 0 \\times 22 + 16 - 10 \\times 4 \\), we follow the order of operations (PEMDAS/BODMAS):\n\n1. First, handle the multiplication:\n   - \\( 0 \\times 22 = 0 \\)\n   - \\( 10 \\times 4 = 40 \\)\n\nNow the expression is simplified to:\n\\( 26 + 0 + 16 - 40 \\).\n\n2. Next, perform the addition and subtraction from left to right:\n   - \\( 26 + 0 = 26 \\)\n   - \\( 26 + 16 = 42 \\)\n   - \\( 42 - 40 = 2 \\)\n\nTherefore, the result of the expression \\( 26 + 0 \\times 22 + 16 - 10 \\times 4 \\) is \\( 2 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566745,
+  "id": "chatcmpl-CdeYrw2wK01w8514Mk19QSIln7FZa",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 185,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 223
+  }
+}
+performance: 0.2537313432835821 0.05316150395982055
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(24 + 20 \\times 3 + 19 - 8 \\times 24\\), we need to follow the order of operations (known as PEMDAS/BODMAS), which dictates that we perform multiplication and division before addition and subtraction.\n\n1. First, we calculate the multiplications:\n   - \\(20 \\times 3 = 60\\)\n   - \\(8 \\times 24 = 192\\)\n\nNow we can rewrite the expression with these results:\n\\[\n24 + 60 + 19 - 192\n\\]\n\n2. Next, we perform the additions and subtractions from left to right:\n   - First, add \\(24 + 60\\):\n     \\[\n     24 + 60 = 84\n     \\]\n   - Then add \\(84 + 19\\):\n     \\[\n     84 + 19 = 103\n     \\]\n   - Finally, subtract \\(192\\) from \\(103\\):\n     \\[\n     103 - 192 = -89\n     \\]\n\nThus, the final result is \\(-89\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566750,
+  "id": "chatcmpl-CdeYwwpIQP6qcAUZuEuXJg6iPlII9",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 229,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 267
+  }
+}
+performance: 0.2647058823529412 0.053500505522720516
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(27 + 29 \\times 27 + 14 - 23 \\times 0\\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. **Multiplication first**:\n   - Calculate \\(29 \\times 27\\):\n     \\[\n     29 \\times 27 = 783\n     \\]\n   - Calculate \\(23 \\times 0\\):\n     \\[\n     23 \\times 0 = 0\n     \\]\n\n2. **Substitute these values back into the expression**:\n   \\[\n   27 + 783 + 14 - 0\n   \\]\n\n3. **Now perform the addition and subtraction from left to right**:\n   - Add \\(27 + 783\\):\n     \\[\n     27 + 783 = 810\n     \\]\n   - Add \\(810 + 14\\):\n     \\[\n     810 + 14 = 824\n     \\]\n   - Subtract \\(0\\):\n     \\[\n     824 - 0 = 824\n     \\]\n\nThus, the final result is \\(\\boxed{824}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566756,
+  "id": "chatcmpl-CdeZ2jfsqDJ3u3cVoqlRkFkbx5esC",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 241,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 279
+  }
+}
+performance: 0.2753623188405797 0.053775959313136355
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(19 + 8 \\times 7 + 23 - 13 \\times 26\\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. First, calculate the multiplication:\n   - \\(8 \\times 7 = 56\\)\n   - \\(13 \\times 26 = 338\\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   19 + 56 + 23 - 338\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - First, \\(19 + 56 = 75\\)\n   - Then, \\(75 + 23 = 98\\)\n   - Finally, \\(98 - 338 = -240\\)\n\nThus, the result of the expression \\(19 + 8 \\times 7 + 23 - 13 \\times 26\\) is \\(-240\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566762,
+  "id": "chatcmpl-CdeZ83EOA3urfvMOCRs8o7NlfFUqB",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 195,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 233
+  }
+}
+performance: 0.2714285714285714 0.05315141471586035
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 17 + 24 \\times 20 + 23 - 0 \\times 11 \\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiplication first**:  \n   - \\( 24 \\times 20 = 480 \\)  \n   - \\( 0 \\times 11 = 0 \\)\n\nNow we rewrite the expression with these results:  \n\\( 17 + 480 + 23 - 0 \\)\n\n2. **Now perform addition and subtraction from left to right**:  \n   - \\( 17 + 480 = 497 \\)  \n   - \\( 497 + 23 = 520 \\)  \n   - \\( 520 - 0 = 520 \\)\n\nTherefore, the result is \\( \\boxed{520} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566767,
+  "id": "chatcmpl-CdeZD1JlwH5xONu43GPbxJvPlTQH0",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 173,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 211
+  }
+}
+performance: 0.28169014084507044 0.0533841783540007
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 28 + 4 \\times 25 + 0 - 10 \\times 14 \\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplication operations:\n   - \\( 4 \\times 25 = 100 \\)\n   - \\( 10 \\times 14 = 140 \\)\n\n2. Substitute these values back into the expression:\n   \\( 28 + 100 + 0 - 140 \\)\n\n3. Next, perform the addition and subtraction from left to right:\n   - \\( 28 + 100 = 128 \\)\n   - \\( 128 + 0 = 128 \\)\n   - \\( 128 - 140 = -12 \\)\n\nThus, the result of the expression \\( 28 + 4 \\times 25 + 0 - 10 \\times 14 \\) is \\( -12 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566771,
+  "id": "chatcmpl-CdeZHEEY3Xv0bOW8Pkq9K32NEcGRK",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 221,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 259
+  }
+}
+performance: 0.2916666666666667 0.05356683548799137
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 22 + 28 \\times 20 + 18 - 4 \\times 22 \\), we need to follow the order of operations (PEMDAS/BODMAS):\n\n1. Calculate the multiplication:\n   - \\( 28 \\times 20 = 560 \\)\n   - \\( 4 \\times 22 = 88 \\)\n\n2. Now substitute back into the expression:\n   \\[\n   22 + 560 + 18 - 88\n   \\]\n\n3. Next, we perform the addition:\n   - \\( 22 + 560 = 582 \\)\n   - Then add \\( 18 \\):\n   \\[\n   582 + 18 = 600\n   \\]\n\n4. Finally, subtract \\( 88 \\) from \\( 600 \\):\n   \\[\n   600 - 88 = 512\n   \\]\n\nThus, the result of the expression \\( 22 + 28 \\times 20 + 18 - 4 \\times 22 \\) is \\( 512 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566776,
+  "id": "chatcmpl-CdeZMt1UYRkX21Ko0X1zGgDkjumaQ",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 218,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 256
+  }
+}
+performance: 0.3013698630136986 0.053704680630787094
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To compute the result of the expression \\( 3 + 26 \\times 19 + 7 - 8 \\times 29 \\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. Perform the multiplication:\n   - \\( 26 \\times 19 = 494 \\)\n   - \\( 8 \\times 29 = 232 \\)\n\n2. Substitute the results back into the expression:\n   \\[\n   3 + 494 + 7 - 232\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - First, add \\( 3 + 494 = 497 \\)\n   - Next, add \\( 497 + 7 = 504 \\)\n   - Finally, subtract \\( 504 - 232 = 272 \\)\n\nThus, the final result is \\( 272 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566782,
+  "id": "chatcmpl-CdeZSC6SkduH7mSSy6cLB7DVVNoXL",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 213,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 251
+  }
+}
+performance: 0.3108108108108108 0.05380237243512409
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(13 + 5 \\times 0 + 8 - 15 \\times 15\\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. **Multiplication first:**\n   - \\(5 \\times 0 = 0\\)\n   - \\(15 \\times 15 = 225\\)\n\n2. **Now substitute these values back into the expression:**\n   \\[\n   13 + 0 + 8 - 225\n   \\]\n\n3. **Now perform addition and subtraction from left to right:**\n   - \\(13 + 0 = 13\\)\n   - \\(13 + 8 = 21\\)\n   - \\(21 - 225 = -204\\)\n\nSo, the final result is \\(-204\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566788,
+  "id": "chatcmpl-CdeZYkfqZrOs1uQZSKEv27wCF1MWq",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 168,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 206
+  }
+}
+performance: 0.30666666666666664 0.05324437024665577
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(21 + 11 \\times 4 + 7 - 28 \\times 13\\), we need to follow the order of operations (also known as PEMDAS/BODMAS), which dictates that we handle multiplication and division before addition and subtraction.\n\n1. Calculate the multiplication:\n   - \\(11 \\times 4 = 44\\)\n   - \\(28 \\times 13 = 364\\)\n\n2. Substitute these values back into the expression:\n   - \\(21 + 44 + 7 - 364\\)\n\n3. Now perform the addition and subtraction from left to right:\n   - First, add \\(21\\) and \\(44\\):\n     \\[21 + 44 = 65\\]\n   - Next, add \\(7\\):\n     \\[65 + 7 = 72\\]\n   - Finally, subtract \\(364\\):\n     \\[72 - 364 = -292\\]\n\nThus, the result of the expression \\(21 + 11 \\times 4 + 7 - 28 \\times 13\\) is \\(-292\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566792,
+  "id": "chatcmpl-CdeZcobZhHHwxdRjhVcT7Zg1M2Qu6",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 229,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 267
+  }
+}
+performance: 0.3026315789473684 0.05269646277592663
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 26 + 10 \\times 20 + 14 - 17 \\times 27 \\), we need to follow the order of operations, often abbreviated as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. **Calculate the multiplication first**:\n   - \\( 10 \\times 20 = 200 \\)\n   - \\( 17 \\times 27 = 459 \\)\n\n2. **Now substitute these values back into the expression**:\n   \\[\n   26 + 200 + 14 - 459\n   \\]\n\n3. **Now perform the addition and subtraction from left to right**:\n   - First, add \\( 26 + 200 = 226 \\).\n   - Next, add \\( 226 + 14 = 240 \\).\n   - Finally, subtract \\( 240 - 459 = -219 \\).\n\nThus, the result of the expression \\( 26 + 10 \\times 20 + 14 - 17 \\times 27 \\) is \\(-219\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566798,
+  "id": "chatcmpl-CdeZiJpSjiFFVAUaQfiQW6elDkj7Q",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 236,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 274
+  }
+}
+performance: 0.2987012987012987 0.05215845399164101
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 19 + 3 \\times 9 + 18 - 21 \\times 2 \\), we follow the order of operations (PEMDAS/BODMAS):\n\n1. **Multiplication first**:\n   - \\( 3 \\times 9 = 27 \\)\n   - \\( 21 \\times 2 = 42 \\)\n\nNow we can rewrite the expression substituting these results:\n\\[\n19 + 27 + 18 - 42\n\\]\n\n2. **Now, do the addition and subtraction from left to right**:\n   - First, add \\( 19 + 27 = 46 \\)\n   - Then, \\( 46 + 18 = 64 \\)\n   - Finally, subtract \\( 64 - 42 = 22 \\)\n\nSo, the result of \\( 19 + 3 \\times 9 + 18 - 21 \\times 2 \\) is **22**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566806,
+  "id": "chatcmpl-CdeZqjO1LbKfNPdxJsiSb8o6YXhBF",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 235
+  }
+}
+performance: 0.2948717948717949 0.05163014666229671
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(19 + 21 \\times 26 + 11 - 23 \\times 28\\), we must follow the order of operations, which is multiplication first, followed by addition and subtraction.\n\n1. First, we calculate the multiplications:\n   - \\(21 \\times 26 = 546\\)\n   - \\(23 \\times 28 = 644\\)\n\n2. Next, we substitute these values back into the expression:\n   \\[\n   19 + 546 + 11 - 644\n   \\]\n\n3. Now we perform the additions and subtraction from left to right:\n   - First, calculate \\(19 + 546 = 565\\)\n   - Next, calculate \\(565 + 11 = 576\\)\n   - Finally, calculate \\(576 - 644 = -68\\)\n\nThus, the result of the expression \\(19 + 21 \\times 26 + 11 - 23 \\times 28\\) is \\(\\boxed{-68}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566811,
+  "id": "chatcmpl-CdeZvVGvRDo2p8fDm9sGYJr4NVLX0",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 245
+  }
+}
+performance: 0.2911392405063291 0.05111134323105411
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(28 + 18 \\times 13 + 23 - 1 \\times 6\\), we need to follow the order of operations, also known as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplications:\n   - \\(18 \\times 13 = 234\\)\n   - \\(1 \\times 6 = 6\\)\n\nNow, the expression can be rewritten as:\n\\[28 + 234 + 23 - 6\\]\n\n2. Next, we proceed with the addition and subtraction from left to right:\n   - \\(28 + 234 = 262\\)\n   - \\(262 + 23 = 285\\)\n   - \\(285 - 6 = 279\\)\n\nTherefore, the result of the expression \\(28 + 18 \\times 13 + 23 - 1 \\times 6\\) is \\(279\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566815,
+  "id": "chatcmpl-CdeZzMrSJO3d3x2IthW9gEgvdyORM",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 210,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 248
+  }
+}
+performance: 0.2875 0.05060184655721567
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 21 \\times 16 + 27 - 16 \\times 26\\), we must follow the order of operations (PEMDAS/BODMAS):\n\n1. Calculate the multiplication parts first:\n   - \\(21 \\times 16 = 336\\)\n   - \\(16 \\times 26 = 416\\)\n\n2. Plug these values back into the expression:\n   \\[\n   10 + 336 + 27 - 416\n   \\]\n\n3. Now, perform the additions and subtractions step-by-step:\n   - First, calculate \\(10 + 336 = 346\\)\n   - Then, calculate \\(346 + 27 = 373\\)\n   - Finally, calculate \\(373 - 416 = -43\\)\n\nTherefore, the result of the expression \\(10 + 21 \\times 16 + 27 - 16 \\times 26\\) is \\(-43\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566821,
+  "id": "chatcmpl-Cdea5hL6sy00Q6siUhnPxmxoRSplo",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 196,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 234
+  }
+}
+performance: 0.2839506172839506 0.05010146054252312
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(28 + 3 \\times 26 + 17 - 10 \\times 9\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we handle the multiplication:\n   - \\(3 \\times 26 = 78\\)\n   - \\(10 \\times 9 = 90\\)\n\nNow we can substitute these values back into the expression:\n\\[\n28 + 78 + 17 - 90\n\\]\n\n2. Next, we perform the addition and subtraction from left to right:\n   - \\(28 + 78 = 106\\)\n   - \\(106 + 17 = 123\\)\n   - \\(123 - 90 = 33\\)\n\nTherefore, the result of the expression \\(28 + 3 \\times 26 + 17 - 10 \\times 9\\) is \\(33\\). \n\n**Final Answer: 33**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566825,
+  "id": "chatcmpl-Cdea93QBzeocpY4jaXoqunk8uvxPb",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 223,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 261
+  }
+}
+performance: 0.2804878048780488 0.04960999065795341
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(12 + 13 \\times 25 + 6 - 6 \\times 7\\), we need to follow the order of operations, often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplications:\n   - \\(13 \\times 25 = 325\\)\n   - \\(6 \\times 7 = 42\\)\n\n2. Now, we substitute these results back into the expression:\n   \\[\n   12 + 325 + 6 - 42\n   \\]\n\n3. Next, we perform the addition and subtraction from left to right:\n   - \\(12 + 325 = 337\\)\n   - \\(337 + 6 = 343\\)\n   - \\(343 - 42 = 301\\)\n\nTherefore, the result of the expression \\(12 + 13 \\times 25 + 6 - 6 \\times 7\\) is \\(301\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566831,
+  "id": "chatcmpl-CdeaFqDjN19SB7bGLkJORgCvejcYL",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 222,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 260
+  }
+}
+performance: 0.27710843373493976 0.049127244384538526
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 8 + 13 \\times 24 + 7 - 16 \\times 24 \\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. First, we handle the multiplications:\n   - \\( 13 \\times 24 = 312 \\)\n   - \\( 16 \\times 24 = 384 \\)\n\nNow we can substitute these values back into the expression:\n\n\\[ 8 + 312 + 7 - 384 \\]\n\n2. Next, we perform the additions and subtraction from left to right:\n   - \\( 8 + 312 = 320 \\)\n   - \\( 320 + 7 = 327 \\)\n   - \\( 327 - 384 = -57 \\)\n\nTherefore, the result of the expression \\( 8 + 13 \\times 24 + 7 - 16 \\times 24 \\) is \\( -57 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566836,
+  "id": "chatcmpl-CdeaKx33aaZYNG8tTD1dy4SF0DGAE",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 232
+  }
+}
+performance: 0.2857142857142857 0.04929039709588245
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 22 + 24 \\times 15 + 25 - 8 \\times 3 \\), we will follow the order of operations, which prioritizes multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplication parts:\n   - \\( 24 \\times 15 = 360 \\)\n   - \\( 8 \\times 3 = 24 \\)\n\n2. Now substitute these values back into the expression:\n   \\[\n   22 + 360 + 25 - 24\n   \\]\n\n3. Next, perform the addition and subtraction from left to right:\n   - First, add \\( 22 + 360 = 382 \\)\n   - Then, add \\( 382 + 25 = 407 \\)\n   - Finally, subtract \\( 407 - 24 = 383 \\)\n\nThus, the final result is \\( \\boxed{383} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566842,
+  "id": "chatcmpl-CdeaQs5GvtM58i8dQdbIwH6DXoFxM",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 188,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 226
+  }
+}
+performance: 0.29411764705882354 0.04942165002451798
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 6 + 17 \\times 7 + 20 - 25 \\times 2 \\), we need to follow the order of operations (also known as PEMDAS/BODMAS), which dictates that we perform multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplications:\n   - \\( 17 \\times 7 = 119 \\)\n   - \\( 25 \\times 2 = 50 \\)\n\n2. Now substitute these values back into the expression:\n   \\( 6 + 119 + 20 - 50 \\)\n\n3. Proceed with the addition and subtraction from left to right:\n   - \\( 6 + 119 = 125 \\)\n   - \\( 125 + 20 = 145 \\)\n   - \\( 145 - 50 = 95 \\)\n\nThus, the result of the expression \\( 6 + 17 \\times 7 + 20 - 25 \\times 2 \\) is \\( \\boxed{95} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566847,
+  "id": "chatcmpl-CdeaV8C9hplP1wNb1LvGc7OfVlcak",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 211,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 249
+  }
+}
+performance: 0.29069767441860467 0.048965167556062235
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(28 + 16 \\times 24 + 18 - 13 \\times 23\\), we will follow the order of operations (PEMDAS/BODMAS), which prioritizes multiplication before addition and subtraction.\n\n1. **Calculate the multiplications:**\n   - \\(16 \\times 24 = 384\\)\n   - \\(13 \\times 23 = 299\\)\n\n2. **Substituting back into the expression:**\n   \\[\n   28 + 384 + 18 - 299\n   \\]\n\n3. **Now, perform the additions and subtraction from left to right:**\n   - First, add \\(28 + 384 = 412\\)\n   - Then, add \\(412 + 18 = 430\\)\n   - Finally, subtract \\(430 - 299 = 131\\)\n\nThus, the final result of the expression \\(28 + 16 \\times 24 + 18 - 13 \\times 23\\) is \\(131\\). \n\n**Answer: 131**",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566853,
+  "id": "chatcmpl-CdeabZvATkfVneC2H0NTiCSSfYHsL",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 217,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 255
+  }
+}
+performance: 0.28735632183908044 0.04851622150080205
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 24 + 4 \\times 4 + 12 - 17 \\times 23 \\), we need to follow the order of operations (PEMDAS/BODMAS: Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, calculate the multiplications:\n   - \\( 4 \\times 4 = 16 \\)\n   - \\( 17 \\times 23 = 391 \\)\n\n2. Substitute these values back into the expression:\n   \\[\n   24 + 16 + 12 - 391\n   \\]\n\n3. Now, proceed with the additions and subtraction from left to right:\n   - \\( 24 + 16 = 40 \\)\n   - \\( 40 + 12 = 52 \\)\n   - \\( 52 - 391 = -339 \\)\n\nThus, the result of the expression \\( 24 + 4 \\times 4 + 12 - 17 \\times 23 \\) is \\(-339\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566860,
+  "id": "chatcmpl-CdeaiN05DhKD3YHFG2RDmmNWhLyBn",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 224,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 262
+  }
+}
+performance: 0.2840909090909091 0.048074665467423255
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 22 + 25 * 20 + 1 - 5 * 25 \\), we need to follow the order of operations, which is to perform multiplication before addition and subtraction.\n\n1. Calculate the multiplication:\n   - \\( 25 * 20 = 500 \\)\n   - \\( 5 * 25 = 125 \\)\n\n2. Substitute these values back into the expression:\n   \\[\n   22 + 500 + 1 - 125\n   \\]\n\n3. Now, perform the addition and subtraction from left to right:\n   - \\( 22 + 500 = 522 \\)\n   - \\( 522 + 1 = 523 \\)\n   - \\( 523 - 125 = 398 \\)\n\nThus, the result of the expression \\( 22 + 25 * 20 + 1 - 5 * 25 \\) is \\( \\boxed{398} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566866,
+  "id": "chatcmpl-Cdeaotor9f7KWdUeR6XOe4LyjUMF0",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 193,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 231
+  }
+}
+performance: 0.2808988764044944 0.04764035415758923
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 23 + 27 \\times 29 + 1 - 19 \\times 21 \\), we will follow the order of operations (PEMDAS/BODMAS) which dictates that we perform multiplication before addition and subtraction.\n\n1. First, we calculate the multiplication parts:\n   - \\( 27 \\times 29 = 783 \\)\n   - \\( 19 \\times 21 = 399 \\)\n\n2. Now substitute these back into the expression:\n   \\( 23 + 783 + 1 - 399 \\)\n\n3. Next, we perform the addition and subtraction from left to right:\n   - First, add \\( 23 + 783 = 806 \\)\n   - Then, add \\( 806 + 1 = 807 \\)\n   - Finally, subtract \\( 807 - 399 = 408 \\)\n\nThus, the final result is \\( 408 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566870,
+  "id": "chatcmpl-CdeaseW4dldhox1gEOevSdZeSsfr2",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 189,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 227
+  }
+}
+performance: 0.28888888888888886 0.047776342212139555
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(23 + 19 \\times 22 + 22 - 7 \\times 9\\), we should follow the order of operations, which indicates that we carry out multiplication before addition and subtraction. \n\n1. Calculate the multiplication:\n   - \\(19 \\times 22 = 418\\)\n   - \\(7 \\times 9 = 63\\)\n\n2. Substitute these values back into the expression:\n   \\[\n   23 + 418 + 22 - 63\n   \\]\n\n3. Now, perform the additions and subtractions from left to right:\n   - First, add \\(23 + 418\\):\n     \\[\n     23 + 418 = 441\n     \\]\n   - Then add \\(441 + 22\\):\n     \\[\n     441 + 22 = 463\n     \\]\n   - Finally, subtract \\(63\\):\n     \\[\n     463 - 63 = 400\n     \\]\n\nThus, the result of the expression \\(23 + 19 \\times 22 + 22 - 7 \\times 9\\) is \\(400\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566874,
+  "id": "chatcmpl-CdeawxGM5xouNRK5Gm6Cqad7HX4ln",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 273
+  }
+}
+performance: 0.2857142857142857 0.0473566817236997
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 17 + 9 \\times 22 + 0 - 19 \\times 24 \\), we need to follow the order of operations, which is often remembered by the acronym PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplication operations:\n   - \\( 9 \\times 22 = 198 \\)\n   - \\( 19 \\times 24 = 456 \\)\n\n2. Now, we substitute these values back into the expression:\n   \\[\n   17 + 198 + 0 - 456\n   \\]\n\n3. Next, we perform the addition and subtraction from left to right:\n   - \\( 17 + 198 = 215 \\)\n   - \\( 215 + 0 = 215 \\)\n   - \\( 215 - 456 = -241 \\)\n\nThus, the result of the expression \\( 17 + 9 \\times 22 + 0 - 19 \\times 24 \\) is \\( \\text{-241} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566880,
+  "id": "chatcmpl-Cdeb20cR5rJWl9G2NjJBUrlNo1NT6",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 235,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 273
+  }
+}
+performance: 0.2826086956521739 0.046943655031967166
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(4 + 17 \\times 20 + 21 - 16 \\times 3\\), we need to follow the order of operations (also known as PEMDAS/BODMAS rules: Parentheses/Brackets, Exponents/Orders, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, perform the multiplications:\n   - \\(17 \\times 20 = 340\\)\n   - \\(16 \\times 3 = 48\\)\n\n2. Now substitute these values back into the expression:\n   \\(4 + 340 + 21 - 48\\)\n\n3. Next, perform the addition and subtraction from left to right:\n   - \\(4 + 340 = 344\\)\n   - \\(344 + 21 = 365\\)\n   - \\(365 - 48 = 317\\)\n\nThus, the final result is \\(317\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566887,
+  "id": "chatcmpl-Cdeb98OpvjNYexCvexYjESxVKptx7",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 197,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 235
+  }
+}
+performance: 0.27956989247311825 0.046537136020450225
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 1 \\times 20 + 4 - 4 \\times 16\\), we need to follow the order of operations (also known as PEMDAS/BODMAS):\n\n1. **Multiplication and Division** first.\n2. **Addition and Subtraction** next.\n\nNow, let's break it down step by step:\n\n1. **Multiplication**:\n   - \\(1 \\times 20 = 20\\)\n   - \\(4 \\times 16 = 64\\)\n\nNow the expression looks like this:\n\\(10 + 20 + 4 - 64\\)\n\n2. **Addition and Subtraction** from left to right:\n   - First, add \\(10 + 20 = 30\\)\n   - Next, \\(30 + 4 = 34\\)\n   - Finally, \\(34 - 64 = -30\\)\n\nSo, the final result is \\(-30\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566900,
+  "id": "chatcmpl-CdebMeZErTDGe06SPd2AJhxjAwiUK",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 232
+  }
+}
+performance: 0.2765957446808511 0.046136999817760205
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 16 + 15 \\times 10 + 13 - 8 \\times 27 \\), we need to follow the order of operations (PEMDAS/BODMAS), which prioritizes multiplication and division before addition and subtraction.\n\n1. First, calculate the multiplication:\n   - \\( 15 \\times 10 = 150 \\)\n   - \\( 8 \\times 27 = 216 \\)\n\n2. Now substitute these values back into the expression:\n   \\( 16 + 150 + 13 - 216 \\)\n\n3. Next, perform the addition:\n   - \\( 16 + 150 = 166 \\)\n   - \\( 166 + 13 = 179 \\)\n\n4. Finally, perform the subtraction:\n   - \\( 179 - 216 = -37 \\)\n\nThus, the result of the expression \\( 16 + 15 \\times 10 + 13 - 8 \\times 27 \\) is \\(\\boxed{-37}\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566905,
+  "id": "chatcmpl-CdebRYHAvYQefxXcVVnUGYnFK4Fup",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 207,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 245
+  }
+}
+performance: 0.2736842105263158 0.04574312297291005
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 11 + 20 \\times 6 + 9 - 28 \\times 27 \\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. First, perform the multiplications:\n   - \\( 20 \\times 6 = 120 \\)\n   - \\( 28 \\times 27 = 756 \\)\n\nNow the expression looks like:\n\\( 11 + 120 + 9 - 756 \\)\n\n2. Next, we perform the additions and subtraction from left to right:\n   - \\( 11 + 120 = 131 \\)\n   - \\( 131 + 9 = 140 \\)\n   - \\( 140 - 756 = -616 \\)\n\nSo, the final result is \\( -616 \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566910,
+  "id": "chatcmpl-CdebW638ZGRhs8ScnAlB2N4mTpbfC",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 164,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 202
+  }
+}
+performance: 0.28125 0.045888047361213796
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 15 + 3 \\times 19 + 12 - 18 \\times 17 \\), we need to follow the order of operations (PEMDAS/BODMAS).\n\n1. First, calculate the multiplication parts:\n   - \\( 3 \\times 19 = 57 \\)\n   - \\( 18 \\times 17 = 306 \\)\n\nNow, substitute these results back into the expression:\n\n\\[\n15 + 57 + 12 - 306\n\\]\n\n2. Next, perform the addition and subtraction from left to right:\n   - First, add \\( 15 + 57 = 72 \\)\n   - Then, add \\( 72 + 12 = 84 \\)\n   - Finally, subtract \\( 84 - 306 = -222 \\)\n\nThus, the result of the expression \\( 15 + 3 \\times 19 + 12 - 18 \\times 17 \\) is \\(-222\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566914,
+  "id": "chatcmpl-CdebanFxT6AKI23angIVNN2DKOz8g",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 201,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 239
+  }
+}
+performance: 0.27835051546391754 0.04550648600025758
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(10 + 2 \\times 1 + 11 - 3 \\times 12\\), we follow the order of operations (also known as PEMDAS/BODMAS), where we handle multiplication before addition and subtraction:\n\n1. First, perform the multiplications:\n   - \\(2 \\times 1 = 2\\)\n   - \\(3 \\times 12 = 36\\)\n\nNow, substitute these results back into the expression:\n\\[10 + 2 + 11 - 36\\]\n\n2. Next, perform the additions and subtractions from left to right:\n   - \\(10 + 2 = 12\\)\n   - \\(12 + 11 = 23\\)\n   - \\(23 - 36 = -13\\)\n\nTherefore, the result of the expression \\(10 + 2 \\times 1 + 11 - 3 \\times 12\\) is \\(-13\\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566921,
+  "id": "chatcmpl-CdebhQ0eFpLDKu8tOVApNYOvv2JDV",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 194,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 232
+  }
+}
+performance: 0.2755102040816326 0.045130686823360695
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\(4 + 26 \\times 1 + 17 - 0 \\times 7\\), we follow the order of operations (PEMDAS/BODMAS).\n\n1. Calculate the multiplication first:\n   - \\(26 \\times 1 = 26\\)\n   - \\(0 \\times 7 = 0\\)\n\nNow we can substitute the results back into the expression:\n\\[ \n4 + 26 + 17 - 0 \n\\]\n\n2. Perform the addition and subtraction from left to right:\n   - \\(4 + 26 = 30\\)\n   - \\(30 + 17 = 47\\)\n   - \\(47 - 0 = 47\\)\n\nThus, the final result is \\(47\\). \n\nSo, the answer is **47**.",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566926,
+  "id": "chatcmpl-CdebmwgPhyZ9XHHu8pozaUZ6FKT4s",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 166,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 204
+  }
+}
+performance: 0.2727272727272727 0.04476054217430281
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "annotations": [],
+        "content": "To solve the expression \\( 24 + 26 \\times 4 + 3 - 5 \\times 6 \\), we need to follow the order of operations, also known as PEMDAS (Parentheses, Exponents, Multiplication and Division (from left to right), Addition and Subtraction (from left to right)).\n\n1. First, we perform the multiplication operations:\n   - \\( 26 \\times 4 = 104 \\)\n   - \\( 5 \\times 6 = 30 \\)\n\n2. Now, we can substitute these back into the expression:\n   \\[\n   24 + 104 + 3 - 30\n   \\]\n\n3. Next, we perform the addition and subtraction from left to right:\n   - First, \\( 24 + 104 = 128 \\)\n   - Then, \\( 128 + 3 = 131 \\)\n   - Finally, \\( 131 - 30 = 101 \\)\n\nThe final result of the expression \\( 24 + 26 \\times 4 + 3 - 5 \\times 6 \\) is \\( \\boxed{101} \\).",
+        "refusal": null,
+        "role": "assistant"
+      }
+    }
+  ],
+  "created": 1763566932,
+  "id": "chatcmpl-CdebsWn7Gws0lHfG7VRauweyOe4tS",
+  "model": "gpt-4o-mini-2024-07-18",
+  "object": "chat.completion",
+  "service_tier": "default",
+  "system_fingerprint": "fp_560af6e559",
+  "usage": {
+    "completion_tokens": 236,
+    "completion_tokens_details": {
+      "accepted_prediction_tokens": 0,
+      "audio_tokens": 0,
+      "reasoning_tokens": 0,
+      "rejected_prediction_tokens": 0
+    },
+    "prompt_tokens": 38,
+    "prompt_tokens_details": {
+      "audio_tokens": 0,
+      "cached_tokens": 0
+    },
+    "total_tokens": 274
+  }
+}
+performance: 0.27 0.044395945760846225
+
+==================================================
+TOKEN USAGE SUMMARY
+==================================================
+Total API calls: 100
+Total prompt tokens: 3800,
+Total completion tokens: 20923,
+Total tokens used: 24723,
+Average tokens per call: 247.2
+Estimated cost (GPT-4o-mini): $0.0494
+==================================================
