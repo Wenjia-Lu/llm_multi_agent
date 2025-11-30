@@ -56,6 +56,12 @@ def plot_replication_results(values, output_file='replication_results.html'):
         plot_bgcolor='white',
         paper_bgcolor='white',
     )
+
+    try:
+        for ann in canvas.layout.annotations:
+            ann.font = dict(size=18)
+    except Exception:
+        pass
     canvas.update_xaxes(
         title_text='Agent Number',
         showgrid=True,
@@ -102,8 +108,8 @@ def plot_replication_results(values, output_file='replication_results.html'):
     
 def main():
 
-    rounds_2_data = [0.82, 0.88, 0.96, 0.97, 0.98, 0.99, 0.97]
-    rounds_3_data = [0.9, 0.93, 0.93, 0.94]
+    rounds_2_data = [82, 88, 96, 97, 98, 99, 97]
+    rounds_3_data = [90, 93, 93, 94]
 
     values = [rounds_2_data, rounds_3_data]
 
