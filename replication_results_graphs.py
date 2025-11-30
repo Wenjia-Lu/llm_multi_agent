@@ -48,7 +48,9 @@ def plot_replication_results(values, output_file='replication_results.html'):
     row=1, 
     col=2)
 
-    canvas.update_xaxes(row=1, col=2, tickmode='linear', dtick=1, tick0=1)
+    canvas.update_yaxes(row=1, col=1, tickmode='linear', dtick=5, tick0=70)
+    canvas.update_yaxes(row=1, col=2, tickmode='linear', dtick=5, tick0=70)
+
     
 
     canvas.update_layout(
@@ -63,7 +65,21 @@ def plot_replication_results(values, output_file='replication_results.html'):
     except Exception:
         pass
     canvas.update_xaxes(
+        row=1,
+        col=1,
         title_text='Agent Number',
+        showgrid=True,
+        gridcolor='lightgrey',
+        gridwidth=1,
+        showline=True,
+        linecolor='black',
+        linewidth=1,
+        mirror=True,
+    )
+    canvas.update_xaxes(
+        row=1,
+        col=2,
+        title_text='Debate Rounds',
         showgrid=True,
         gridcolor='lightgrey',
         gridwidth=1,
