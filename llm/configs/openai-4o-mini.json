@@ -1,0 +1,10 @@
+{
+    "model_name": "gpt-4o-mini",
+    "model_type": "api",
+    "api_url": "https://api.openai.com/v1",
+    "api_key": "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", 
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "context_length": 4096,
+    "parameter_count": 8000000000
+}

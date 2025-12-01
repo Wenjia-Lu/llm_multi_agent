@@ -1,0 +1,11 @@
+{
+    "model_name": "mistralai/Mistral-7B-Instruct-v0.2",
+    "model_type": "local",
+    "model_path": null,
+    "device": "cpu",
+    "quantization": null,
+    "temperature": 0.7,
+    "max_tokens": 512,
+    "context_length": 4096,
+    "parameter_count": 8000000000
+}
