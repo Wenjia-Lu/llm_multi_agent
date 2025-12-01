@@ -1,0 +1,1213 @@
+{
+  "summary": {
+    "evaluated_facts": 190,
+    "total_facts": 200,
+    "skipped": 10,
+    "consistent_facts": 106,
+    "mean_accuracy": 0.5578947368421052,
+    "std": 0.4966368889299137,
+    "stderr": 0.03602982678471762
+  },
+  "results": [
+    {
+      "person": "Darrell Long",
+      "fact": "Darrell Don Earl Long is a computer scientist and computer engineer.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "He is the Kumar Malavalli Endowed Chair of Storage Systems Research and Distinguished Professor of Engineering at the University of California, Santa Cruz.",
+      "model_judgment": "No. \n\nThe biography mentions the University of California",
+      "is_consistent": false
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "Long was the founder of the Conference on File and Storage Technologies in 2002.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "He did his undergraduate studies at San Diego State University and received his Ph.D. from the University of California, San Diego.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "Long's research interests include computer data storage, operating systems, distributed computing, and computer security.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "He has worked on metadata for exascale file systems, data deduplication, and web caching.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Darrell Long",
+      "fact": "Long is a fellow of both the IEEE and the American Association for the Advancement of Science.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "J\u00fcrg Gutknecht is a Swiss computer scientist and professor.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "He worked for Swissair and IBM before getting his Ph.D. in mathematics from ETH Zurich in 1978.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "He joined Niklaus Wirth's research team in 1981, where they developed the Lilith computer and Modula-2.",
+      "model_judgment": "Uncertain\n\nThe biography does not mention J\u00fc",
+      "is_consistent": null
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "After a sabbatical at PARC, Gutknecht developed the Oberon operating system and programming language with Wirth.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "He also developed the system Sakkara and the programming language Zonnon.",
+      "model_judgment": "Uncertain\n\nThe provided biography does not mention S",
+      "is_consistent": null
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "Gutknecht's publications are not mentioned.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "J\u00fcrg Gutknecht",
+      "fact": "His personal webpage and profile on ETH Zurich's website are provided as external links.",
+      "model_judgment": "Uncertain\n\nThe biography mentions the University of Ber",
+      "is_consistent": null
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "Stephen Richard \"Steve\" Bourne is an English computer scientist based in the United States.",
+      "model_judgment": "No. \n\nThe biography states that Stephen R.",
+      "is_consistent": false
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "He is known for creating the Bourne shell (sh), which is the foundation for the standard command-line interfaces to Unix.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "He has a Bachelor of Science degree in mathematics and a Ph.D. in mathematics from Trinity College, Cambridge.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "Bourne worked on an ALGOL 68 compiler at the University of Cambridge Computer Laboratory and spent nine years at Bell Labs with the Seventh Edition Unix team.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "Besides the Bourne shell, he wrote the adb debugger and The Unix System.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "After Bell Labs, Bourne worked in senior engineering management positions at Silicon Graphics, Digital Equipment Corporation, Sun Microsystems, and Cisco Systems.",
+      "model_judgment": "No. \n\nThe biography states that Bourne was",
+      "is_consistent": false
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "He was involved with developing international standards in programming and informatics, as a member of the International Federation for Information Processing.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Stephen R.",
+      "is_consistent": true
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "Bourne was president of the Association for Computing Machinery (ACM) from 2000 to 2002 and has received multiple awards from the ACM.",
+      "model_judgment": "No. \n\nThe biography states that Bourne was",
+      "is_consistent": false
+    },
+    {
+      "person": "Stephen R. Bourne",
+      "fact": "He is also a Fellow of the Royal Astronomical Society and the chairperson of the editorial advisory board for ACM Queue.",
+      "model_judgment": "No. \n\nThe biography states that Stephen R.",
+      "is_consistent": false
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "Lawrence Fogel was a pioneer in evolutionary computation and human factors analysis.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "He worked in aerospace engineering and antenna design, and designed active noise cancellation to reduce noise in helicopter cockpit environments.",
+      "model_judgment": "No. \n\nThe biography does not mention anything about",
+      "is_consistent": false
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "He was interested in information theory and communications, and worked for Convair and General Dynamics on the F-102 Delta Dagger, F-106 Delta Dart, and other missile and electronics products.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "Fogel explored evolutionary programming for time-series prediction, which became the basis of his Ph.D. dissertation and the first book in the field of evolutionary computation.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "In 1965, he founded Decision Science, Inc. specifically for applications of evolutionary programming.",
+      "model_judgment": "No. \n\nThe biography states that Fogel founded",
+      "is_consistent": false
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "He was also well known for his interest in radio-controlled sailboats and sailplanes, as well as music.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Lawrence J. Fogel",
+      "fact": "Fogel received many scientific honors and published several articles and books on evolutionary programming and other topics.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "Bryan M. Cantrill is an American software engineer.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "He worked at Sun Microsystems and later at Oracle Corporation after its acquisition of Sun.",
+      "model_judgment": "Yes. \n\nThe biography mentions Bryan Cantrill",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "He left Oracle in 2010 to become Vice President of Engineering at Joyent, later transitioning to Chief Technology Officer in 2014 until his departure in 2019.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "Cantrill is now the CTO of Oxide Computer company.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "He is known for his development of DTrace, a function of the OS Solaris 10 for tracing and diagnosis of software.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "Cantrill was named one of the 35 Top Young Innovators by Technology Review in 2005.",
+      "model_judgment": "Yes. \n\nThe biography states that Cantrill",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "He was a member of the ACM Queue Editorial Board.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "Cantrill was involved in the founding of Fishworks, a project at Sun Microsystems that produced the Sun Storage 7000 Unified Storage Systems.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Cantrill",
+      "is_consistent": true
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "In a 1996 technical discussion, Cantrill made a controversial comment to Linux kernel developer David S. Miller that later caused regret.",
+      "model_judgment": "No\n\nThe biography does not mention the 199",
+      "is_consistent": false
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "In 2010, Cantrill compared Oracle's behavior to that of Nazis after leaving the company.",
+      "model_judgment": "No. \n\nThe biography does not mention Cantr",
+      "is_consistent": false
+    },
+    {
+      "person": "Bryan Cantrill",
+      "fact": "Cantrill has expressed a preference for permissive open source software licenses over copyleft licenses.",
+      "model_judgment": "Yes. \n\nThe biography does not mention Cantr",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Latanya Arvette Sweeney is an American computer scientist and a professor at Harvard University.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "She is the founder and director of the Public Interest Tech Lab and the Data Privacy Lab.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Sweeney is credited with the observation that \"87% of the U.S. population is uniquely identified by date of birth, gender, postal code\".",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "She completed her undergraduate degree in computer science at the Harvard University Extension School and received her Ph.D. from the Massachusetts Institute of Technology.",
+      "model_judgment": "No. \n\nThe biography states that Latanya S",
+      "is_consistent": false
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Sweeney founded the Data Privacy Lab at Carnegie Mellon University in 2001.",
+      "model_judgment": "No. \n\nThe biography states that Sweeney is",
+      "is_consistent": false
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Her research has focused on data privacy and re-identification, which includes her successful identification of then Massachusetts governor, William Weld, using publicly accessible records.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Her work has had a significant impact on privacy-centered policymaking, including the health privacy legislation HIPAA.",
+      "model_judgment": "Yes. \n\nThe biography mentions Latanya Sweeney",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "Sweeney's research aims to provide a cross-disciplinary perspective about privacy in the process of disseminating data.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Latanya Sweeney",
+      "fact": "In 2021, Sweeney launched the Public Interest Technology Lab at Harvard's John F. Kennedy School of Government.",
+      "model_judgment": "No. \n\nThe biography does not mention the Public",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "Paritosh K. Pandya is an Indian computer scientist based at the Tata Institute of Fundamental Research in Mumbai, India.",
+      "model_judgment": "No. \n\nThe biography provided is about a film",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "He studied for a BE degree in Electronics at the Maharaja Sayajirao University of Baroda, an MTech degree in Computer Science at IIT Kanpur, and a PhD in Computer Science at Bombay University/TIFR.",
+      "model_judgment": "No. \n\nThe biography does not mention Parit",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "Since 1988, he has held academic posts at TIFR.",
+      "model_judgment": "No. \n\nThe biography mentions Paritosh Pand",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "From 1989 to 1991, he was a researcher at the Oxford University Computing Laboratory in England as part of the ESPRIT ProCoS project on \"Provably Correct Systems\".",
+      "model_judgment": "No. \n\nThe biography provided does not mention Par",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "Pandya's main research interest is in the area of formal methods, including real-time systems, and he leads the Theoretical Computer Science Group at TIFR.",
+      "model_judgment": "No. \n\nThe biography provided is about a film",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "He has been especially involved with research concerning Duration Calculus, including the DCVALID model-checking tool.",
+      "model_judgment": "No. \n\nThe biography provided is about a film",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "His most cited paper, \"Finding Response Times in a Real-Time System\", won a 2020 Test-of-Time Award and was published in The Computer Journal in 1986, joint work with Mathai Joseph.",
+      "model_judgment": "No. \n\nThe biography provided is about a film",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "He has been a member of the Editorial Board for the Formal Aspects of Computing journal published by Springer.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "Pandya is also an adjunct professor at IIT Bombay since 2020.",
+      "model_judgment": "Uncertain\n\nThe biography does not mention Parit",
+      "is_consistent": null
+    },
+    {
+      "person": "Paritosh Pandya",
+      "fact": "His publications can be found on Google Scholar, DBLP Bibliography Server, Academia.edu, Mendeley, and ResearchGate.",
+      "model_judgment": "No. \n\nThe biography provided is about a film",
+      "is_consistent": false
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "Jie Wu is a Chinese computer scientist based in Pennsylvania.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "He is the Associate Vice Provost for International Affairs and Director for Center for Networked Computing at Temple University.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "Wu is also a Laura H. Carnell professor in the Department of Computer and Information Sciences.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "He is noted for his research in routing for wired and wireless networks.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "Wu served as Program Director of Networking Technology and Systems (NeTS) at the National Science Foundation from 2006 to 2008.",
+      "model_judgment": "No. \n\nThe biography does not mention Wu's",
+      "is_consistent": false
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "He has served as the General Chair and Program Chair of various IEEE conferences and is a Fellow of IEEE.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Jie Wu",
+      "is_consistent": true
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "Wu has received multiple awards for his contributions to computer science, including the 2011 China Computer Federation (CCF) Overseas Outstanding Achievements Award.",
+      "model_judgment": "No\n\nThe biography does not mention the 201",
+      "is_consistent": false
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "He is currently a CCF Distinguished Speaker.",
+      "model_judgment": "Uncertain\n\nThe biography does not mention Jie",
+      "is_consistent": null
+    },
+    {
+      "person": "Jie Wu",
+      "fact": "Wu resides in Fort Washington, Pennsylvania.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "Mary Jane Irwin is an Emerita Evan Pugh Professor at Pennsylvania State University.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "She is an expert in computer architecture, embedded and mobile computing systems design, power and reliability aware design, and emerging technologies in computing systems.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "Irwin received her B.S. in Mathematics from Memphis State University and her M.S. and Ph.D. in Computer Science from the University of Illinois.",
+      "model_judgment": "No. \n\nThe biography states that Mary Jane Ir",
+      "is_consistent": false
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "She joined Penn State as an assistant professor in 1977 and retired in 2017.",
+      "model_judgment": "No. \n\nThe biography states that Mary Jane Ir",
+      "is_consistent": false
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "Irwin has worked on application-specific architectures and resource constrained systems design.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Irwin's",
+      "is_consistent": true
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "She has received numerous awards and honors for her contributions to the field, including being elected a member of the National Academy of Engineering in 2003.",
+      "model_judgment": "No. \n\nThe biography does not mention the National",
+      "is_consistent": false
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "She has also served on multiple boards and committees within the computer science research community.",
+      "model_judgment": "Yes. \n\nThe biography mentions that she has served",
+      "is_consistent": true
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "Irwin received the 2019 Phil Kaufman Award, the EDA Industry's highest honor, and is the first woman to receive the award.",
+      "model_judgment": "No. \n\nThe biography does not mention the ",
+      "is_consistent": false
+    },
+    {
+      "person": "Mary Jane Irwin",
+      "fact": "She is married with one son who is also a computer scientist and two grandchildren.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "Steven Rudich is a professor in the Carnegie Mellon School of Computer Science.",
+      "model_judgment": "Yes. \n\nThe biography does not mention a specific",
+      "is_consistent": true
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "He and Alexander Razborov were awarded the G\u00f6del Prize in 2007 for their work on natural proofs.",
+      "model_judgment": "No. \n\nThe biography states that Steven Rudich",
+      "is_consistent": false
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "He co-authored a paper showing that all currently known NP-complete problems remain NP-complete under AC0 or NC0 reductions.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Steven Rudich",
+      "is_consistent": true
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "Rudich teaches the class \"Great Theoretical Ideas in Computer Science,\" considered one of the most difficult in the undergraduate computer science curriculum at Carnegie Mellon.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Steven Rudich",
+      "is_consistent": true
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "He is an editor of the Journal of Cryptology and an accomplished magician.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "Rudich co-founded Leap@CMU, a summer enrichment program for high school students interested in computer science and robotics.",
+      "model_judgment": "Yes. \n\nThe biography does not mention any information",
+      "is_consistent": true
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "To enroll in Leap@CMU, students must take the \"Interesting Test\" which measures problem-solving abilities.",
+      "model_judgment": "Uncertain\n\nThe biography does not mention Carnegie Mellon",
+      "is_consistent": null
+    },
+    {
+      "person": "Steven Rudich",
+      "fact": "As of summer 2018, Leap@CMU has been discontinued.",
+      "model_judgment": "Yes. \n\nThe biography does not mention Leap@",
+      "is_consistent": true
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "Bernard Richards is a British computer scientist and Emeritus Professor of Medical Informatics at the University of Manchester.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "He studied mathematics and physics for his bachelor's degree and worked under the supervision of Alan Turing for his master's degree, helping to validate Turing's theory of morphogenesis.",
+      "model_judgment": "Uncertain. \n\nThe biography does not mention Alan",
+      "is_consistent": null
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "Richards changed his research area after Turing's death and worked on studying optics for his doctorate, resulting in a Royal Society paper with his supervisor.",
+      "model_judgment": "Uncertain. \n\nThe biography does not mention a",
+      "is_consistent": null
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "Later, he worked on hormone peaks in the menstrual cycle and expert systems for open heart surgery and intensive care units.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "Richards has held various positions, including Chairman of the BCS Health Informatics Committee and first President of the Institute for Health Record and Information Management.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Bernard Richards",
+      "fact": "He has also received multiple honors, including being made BCS Fellow of the Year for Services to Medical Informatics and receiving awards from Queen Elizabeth II for contributing to a time capsule during Turing's centenary year.",
+      "model_judgment": "No. \n\nThe biography mentions that Bernard Richards is",
+      "is_consistent": false
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "David Stifler Johnson was an American computer scientist who specialized in algorithms and optimization.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He was the head of the Algorithms and Optimization Department of AT&T Labs Research from 1988 to 2013.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He was also a visiting professor at Columbia University from 2014 to 2016.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He was awarded the 2010 Knuth Prize.",
+      "model_judgment": "No. \n\nThe biography states that David S.",
+      "is_consistent": false
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "Johnson was born in Washington D.C. in 1945 and earned his degrees in Mathematics from Amherst College and MIT.",
+      "model_judgment": "No. \n\nThe biography states that Johnson was born",
+      "is_consistent": false
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He was inducted as a Fellow of the Association for Computing Machinery and a member of the National Academy of Engineering.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He was the coauthor of Computers and Intractability: A Guide to the Theory of NP-Completeness.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Johnson was a",
+      "is_consistent": true
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "Johnson's publications have been cited over 96,000 times, and he has an h-index of 78.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "He died on March 8, 2016, at the age of 70.",
+      "model_judgment": "No. \n\nThe biography states that David S.",
+      "is_consistent": false
+    },
+    {
+      "person": "David S. Johnson",
+      "fact": "See also: NP-completeness, List of computer scientists, and List of important publications in computer science.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "Zohar Manna was an Israeli-American computer scientist and professor of computer science at Stanford University.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "He earned his Bachelor of Science and Master of Science degrees from the Technion \u2013 Israel Institute of Technology and a PhD in computer science from Carnegie Mellon University.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "Manna authored nine books, including The Mathematical Theory of Computation and co-authored an unfinished trilogy of textbooks on temporal logic and verification of reactive systems.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "He received several awards, including induction as a Fellow of the Association for Computing Machinery and sharing the Herbrand Award with Richard Waldinger.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "He supervised 30 doctoral students, including Nachum Dershowitz, Adi Shamir, and Thomas Henzinger.",
+      "model_judgment": "Yes. \n\nThe biography does not provide information about",
+      "is_consistent": true
+    },
+    {
+      "person": "Zohar Manna",
+      "fact": "Manna passed away on August 30, 2018.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Chuck Thacker was an American pioneer computer designer",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "He designed the Xerox Alto, the first computer to use a mouse-driven graphical user interface (GUI)",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Thacker received his B.S. in physics from the University of California, Berkeley in 1967",
+      "model_judgment": "No. \n\nThe biography states that Thacker received",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "He worked at Xerox Palo Alto Research Center, where he served as project leader of the Xerox Alto personal computer system, was co-inventor of the Ethernet LAN, and contributed to many other projects, including the first laser printer",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Thacker also worked at Digital Equipment Corporation and Microsoft Research",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "He designed the hardware for Microsoft's Tablet PC, based on his experience with the interim Dynabook at PARC, and later the Lectrice, a pen-based hand-held computer at DEC SRC",
+      "model_judgment": "No. \n\nThe biography does not mention Charles P",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Thacker died of complications from esophageal cancer on June 12, 2017",
+      "model_judgment": "No. \n\nThe biography states that Charles P.",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Thacker received several awards, including the Turing Award in 2010",
+      "model_judgment": "No. \n\nThe biography does not mention the Turing",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles P. Thacker",
+      "fact": "Further reading and external links are available for those interested in learning more.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "John George Kemeny was a mathematician, computer scientist, and educator.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "He co-developed the BASIC programming language in 1964 with Thomas E. Kurtz.",
+      "model_judgment": "No. \n\nThe biography states that Kemeny",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny served as the 13th President of Dartmouth College from 1970 to 1981.",
+      "model_judgment": "No. \n\nThe biography states that Kemeny",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "He pioneered the use of computers in college education.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny chaired the presidential commission that investigated the Three Mile Island accident in 1979.",
+      "model_judgment": "No. \n\nAccording to the biography, Kemen",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "He was a Hungarian-born American who emigrated to the United States during World War II.",
+      "model_judgment": "Yes. \n\nThe biography states that John George K",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny attended Princeton University for his undergraduate and graduate studies and worked as Albert Einstein's mathematical assistant during graduate school.",
+      "model_judgment": "No. \n\nThe biography does not mention Kemen",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny was appointed to the Dartmouth Mathematics Department as a full professor in 1953, and later became the chairman of the department.",
+      "model_judgment": "Yes. \n\nThe biography states that Kemeny",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "He introduced Finite mathematics courses and co-authored several textbooks on the subject.",
+      "model_judgment": "Yes. \n\nThe biography mentions that John George K",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny and Kurtz were pioneers in the use of computers for ordinary people and invented the world's first time-sharing system, the Dartmouth Time-Sharing System (DTSS).",
+      "model_judgment": "Yes. \n\nThe biography mentions that Kemeny",
+      "is_consistent": true
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "Kemeny was president of Dartmouth from 1970 to 1981 and made Dartmouth a pioneer in student use of computers.",
+      "model_judgment": "No. \n\nThe biography states that Kemeny",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "In 1983, Kemeny and Kurtz co-founded a company called True BASIC, Inc. to market True BASIC, an updated version of the language.",
+      "model_judgment": "No. \n\nThe biography does not mention the co",
+      "is_consistent": false
+    },
+    {
+      "person": "John George Kemeny",
+      "fact": "John Kemeny died of heart failure in Lebanon, New Hampshire in 1992.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "Yorick Wilks is a British computer scientist and emeritus professor of artificial intelligence at the University of Sheffield.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "He pioneered meaning-based approaches to natural language content for computers in the 1970s with his contribution in \"Preference Semantics\".",
+      "model_judgment": "Yes. \n\nThe biography mentions that Wilks was",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "Wilks has received numerous awards, including the Lovelace Medal by the British Computer Society and the Zampolli Prize by ELRA.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "He is a member of several associations, including the Association for Computational Linguistics and the American Association for Artificial Intelligence.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "Wilks has authored several books, including \"Artificial Intelligence: Modern Magic or Dangerous Future?\" and \"Machine Translation: its scope and limits\".",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "He has also worked on projects such as the Companions Project on creating long-term computer companions for people and has an interest in modelling human-computer dialogue.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "Wilks is a visiting professor of artificial intelligence at Gresham College and a senior research fellow at the Oxford Internet Institute.",
+      "model_judgment": "No. \n\nThe biography states that Wilks is",
+      "is_consistent": false
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "He was awarded the Fellowship of the Association for Computing Machinery and was elected a fellow of the American and European Associations for Artificial Intelligence and the British Computer Society.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "Wilks received a Doctor of Philosophy degree from Pembroke College, Cambridge, where he also joined the Epiphany Philosophers.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Yorick Wilks",
+      "fact": "He has published numerous papers and has designed advanced NLP architecture called GATE.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "Susan Lois Graham is an American computer scientist.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "She is the Pehong Chen Distinguished Professor Emerita in the Computer Science Division of the Department of Electrical Engineering and Computer Sciences at the University of California, Berkeley.",
+      "model_judgment": "No. \n\nThe biography states that Susan L.",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "Graham received her A.B. in mathematics from Harvard in 1964 and did her graduate work in computer science at Stanford, receiving her M.S. in 1966 and her Ph.D. in 1971.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "She is known for her research projects including Harmonia and Titanium.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "Graham was the founding editor of the ACM Transactions on Programming Languages and Systems and is a member of the United States President's Council of Advisors on Science and Technology.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "She has received numerous honors and awards, including the IEEE John von Neumann Medal and the ACM-IEEE-CS Ken Kennedy Award.",
+      "model_judgment": "No. \n\nThe biography does not mention the IEEE",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "Graham is married to professor emeritus Michael A. Harrison of UC Berkeley.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Susan L. Graham",
+      "fact": "See also: List of computer scientists.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "Charles Havice Moore II is an American computer engineer and programmer born in 1938.",
+      "model_judgment": "No\n\nThe biography mentions Charles H. Moore graduating",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "He is best known for inventing the Forth programming language in 1968.",
+      "model_judgment": "No\n\nThe biography states that Charles H. Moore",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "Moore co-founded FORTH, Inc. with Elizabeth Rather in 1971.",
+      "model_judgment": "No. \n\nThe biography states that Charles H.",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "In the 1980s, Moore designed several stack machine microprocessors and gained several microprocessor-related patents.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Moore continued to",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "His designs emphasised high performance at low power usage.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Moore developed the",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "In 2005, Moore co-founded IntellaSys, which develops and markets his chip designs.",
+      "model_judgment": "No. \n\nThe biography does not mention Charles H",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "He also developed the colorForth dialect of Forth, a language derived from the scripting language for his custom VLSI CAD system OKAD.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "In 2009, he co-founded GreenArrays, Inc., which is marketing the GA4 and GA144 multi-computer chips.",
+      "model_judgment": "No. \n\nThe biography does not mention Charles H",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "Rather, Colburn and Moore's 1996 publication \"The Evolution of Forth\" is a significant source of information on Forth's development.",
+      "model_judgment": "No\n\nThe biography states that Charles H. Moore",
+      "is_consistent": false
+    },
+    {
+      "person": "Charles H. Moore",
+      "fact": "Moore's homepage, GreenArrays, FORTH, Inc., and an interview with Simple-Talk are linked in the article.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "Madhu Sudan is an Indian-American computer scientist",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "He is currently a Gordon McKay Professor of Computer Science at the Harvard John A. Paulson School of Engineering and Applied Sciences",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "Sudan received his bachelor's degree in computer science from IIT Delhi in 1987 and his doctoral degree in computer science at the University of California, Berkeley in 1992",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "He worked at IBM Thomas J. Watson Research Center and then at MIT before joining Microsoft Research New England as a permanent researcher from 2009 to 2015",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "Sudan was awarded the Rolf Nevanlinna Prize, the ACM's Distinguished Doctoral Dissertation Award, the G\u00f6del Prize, and the Infosys Prize for his work in advancing the theory of probabilistically checkable proofs and developing error-correcting codes",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "He is a fellow of the ACM and the American Mathematical Society",
+      "model_judgment": "No\n\nThe biography states that Madhu Sudan is",
+      "is_consistent": false
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "In 2017, Sudan was elected to the National Academy of Sciences",
+      "model_judgment": "Yes. \n\nThe biography does not mention the year",
+      "is_consistent": true
+    },
+    {
+      "person": "Madhu Sudan",
+      "fact": "In 2021, he was awarded the IEEE Richard W. Hamming Medal for his contributions to theoretical computer science",
+      "model_judgment": "Yes. \n\nThe biography does not mention the IEEE",
+      "is_consistent": true
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "Rasmus Lerdorf is a Danish-Canadian programmer.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "He co-authored and inspired the PHP scripting language, and authored the first two versions of the language.",
+      "model_judgment": "No. \n\nThe biography states that Rasmus L",
+      "is_consistent": false
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "He contributed to the Apache HTTP Server and added the LIMIT clause to the mSQL DBMS.",
+      "model_judgment": "Uncertain\n\nThe biography does not mention Rasmus",
+      "is_consistent": null
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "From 2002 to 2009, he worked for Yahoo! Inc. as an Infrastructure Architecture Engineer.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "In 2010, he joined WePay to develop their application programming interface and since then has been a roving consultant for startups.",
+      "model_judgment": "No. \n\nThe biography states that Rasmus L",
+      "is_consistent": false
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "Lerdorf is a frequent speaker at Open Source conferences around the world.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "He was named in the MIT Technology Review TR100 as one of the top 100 innovators in the world under the age of 35 in 2003.",
+      "model_judgment": "Yes. \n\nThe biography states that Rasmus L",
+      "is_consistent": true
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "Lerdorf joined Jelastic as a senior advisor in July 2013 to help them with the creation of new technology.",
+      "model_judgment": "No. \n\nThe biography does not mention Lerd",
+      "is_consistent": false
+    },
+    {
+      "person": "Rasmus Lerdorf",
+      "fact": "He made a speech on the history of PHP, the new PHP 7 release in 2017, and the 25 years of PHP at the WeAreDevelopers Conferences 2017 and 2019.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Ian Goldberg is a cryptographer and cypherpunk.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "He is known for breaking Netscape's implementation of SSL with David Wagner.",
+      "model_judgment": "Yes. \n\nThe biography mentions that Ian Goldberg has",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Goldberg was the chief scientist of Radialpoint and is currently a professor at the University of Waterloo and the Canada Research Chair in Privacy Enhancing Technologies.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "He was formerly Tor Project board of directors chairman and is one of the designers of off the record messaging.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Goldberg attended the University of Toronto Schools for high school and received a B.Math from the University of Waterloo in pure mathematics and computer science.",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "He obtained a Ph.D. from UC Berkeley with a thesis entitled \"A Pseudonymous Communications Infrastructure for the Internet\" advised by Eric Brewer.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Goldberg won bronze, silver, and gold medals respectively as a member of Canada's team to the International Math Olympiad from 1989 to 1991.",
+      "model_judgment": "No. \n\nThe biography does not mention Ian Goldberg",
+      "is_consistent": false
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "He co-discovered the flaw in the random number generator used for temporary key generation in the SSL implementation of Netscape Navigator in 1995 with David Wagner.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Goldberg co-authored the Off-the-Record instant messaging encryption protocol.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "He co-authored the Sphinx Mix Format in 2009, which is now implemented to increase privacy while routing Bitcoin payments through the Lightning Network.",
+      "model_judgment": "No. \n\nThe biography does not mention Ian Goldberg",
+      "is_consistent": false
+    },
+    {
+      "person": "Ian Goldberg",
+      "fact": "Goldberg is a member of the Cryptography, Security and Privacy group and the Cybersecurity and Privacy Institute.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "Daniel Jurafsky is a professor of linguistics and computer science at Stanford University",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "He is known for developing the first automatic system for semantic role labeling (SRL) with Daniel Gildea",
+      "model_judgment": "Uncertain\n\nThe biography does not mention Dan Jur",
+      "is_consistent": null
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "Jurafsky is the author of The Language of Food: A Linguist Reads the Menu and a textbook on speech and language processing",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "He received his B.A in linguistics and Ph.D. in computer science, both from UC Berkeley, and a postdoc at ICSI, Berkeley",
+      "model_judgment": "No",
+      "is_consistent": false
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "Jurafsky received a MacArthur Fellowship in 2002 and other honors and awards, including being a LSA Fellow and receiving the Atkinson Prizes in Psychological and Cognitive Sciences",
+      "model_judgment": "No. \n\nThe biography does not mention the Mac",
+      "is_consistent": false
+    },
+    {
+      "person": "Dan Jurafsky",
+      "fact": "He lives in San Francisco, California.",
+      "model_judgment": "Yes",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "James Hardy Wilkinson was a prominent figure in the field of numerical analysis.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "He studied at Trinity College, Cambridge, and graduated as Senior Wrangler.",
+      "model_judgment": "No. \n\nThe biography states that James H.",
+      "is_consistent": false
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "He worked on ballistics during World War II but later worked on the ACE computer project with Alan Turing at the National Physical Laboratory.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "Wilkinson's interests took him into the numerical analysis field, where he discovered many significant algorithms.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "He received the Turing Award in 1970 and was elected as a Distinguished Fellow of the British Computer Society in 1974.",
+      "model_judgment": "No. \n\nThe biography does not mention the Turing",
+      "is_consistent": false
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "The James H. Wilkinson Prize in Numerical Analysis and Scientific Computing, and J. H. Wilkinson Prize for Numerical Software are named in his honour.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "He died of a heart attack at home on October 5, 1986.",
+      "model_judgment": "Yes.",
+      "is_consistent": true
+    },
+    {
+      "person": "James H. Wilkinson",
+      "fact": "Some of his works include Rounding Errors in Algebraic Processes, The Algebraic Eigenvalue Problem, and Handbook for Automatic Computation.",
+      "model_judgment": "Yes. \n\nThe biography and the fact are consistent",
+      "is_consistent": true
+    }
+  ]
+}

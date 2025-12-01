@@ -1,0 +1,299 @@
+Loading Tokenizer for meta-llama/Llama-3.1-8B-Instruct...
+Initializing Connection...
+Success: Connected to vLLM.
+--- Processing Question 1 ---
+  Round 1...
+    Agent 0 finished (138 tok)
+    Agent 1 finished (165 tok)
+    Agent 2 finished (168 tok)
+  Round 2...
+    Agent 0 finished (397 tok)
+    Agent 1 finished (438 tok)
+    Agent 2 finished (372 tok)
+    [Saved] 1/100 completed.
+--- Processing Question 2 ---
+  Round 1...
+    Agent 0 finished (360 tok)
+    Agent 1 finished (415 tok)
+    Agent 2 finished (358 tok)
+  Round 2...
+    Agent 0 finished (1094 tok)
+    Agent 1 finished (1113 tok)
+    Agent 2 finished (1161 tok)
+    [Saved] 2/100 completed.
+--- Processing Question 3 ---
+  Round 1...
+    Agent 0 finished (227 tok)
+    Agent 1 finished (336 tok)
+    Agent 2 finished (230 tok)
+  Round 2...
+    Agent 0 finished (649 tok)
+    Agent 1 finished (685 tok)
+    Agent 2 finished (641 tok)
+    [Saved] 3/100 completed.
+--- Processing Question 4 ---
+  Round 1...
+    Agent 0 finished (195 tok)
+    Agent 1 finished (222 tok)
+    Agent 2 finished (215 tok)
+  Round 2...
+    Agent 0 finished (568 tok)
+    Agent 1 finished (548 tok)
+    Agent 2 finished (566 tok)
+    [Saved] 4/100 completed.
+--- Processing Question 5 ---
+  Round 1...
+    Agent 0 finished (180 tok)
+    Agent 1 finished (192 tok)
+    Agent 2 finished (165 tok)
+  Round 2...
+    Agent 0 finished (444 tok)
+    Agent 1 finished (454 tok)
+    Agent 2 finished (420 tok)
+    [Saved] 5/100 completed.
+--- Processing Question 6 ---
+  Round 1...
+    Agent 0 finished (175 tok)
+    Agent 1 finished (167 tok)
+    Agent 2 finished (168 tok)
+  Round 2...
+    Agent 0 finished (469 tok)
+    Agent 1 finished (427 tok)
+    Agent 2 finished (596 tok)
+    [Saved] 6/100 completed.
+--- Processing Question 7 ---
+  Round 1...
+    Agent 0 finished (572 tok)
+    Agent 1 finished (570 tok)
+    Agent 2 finished (504 tok)
+  Round 2...
+    Agent 0 finished (1226 tok)
+    Agent 1 finished (1284 tok)
+    Agent 2 finished (1140 tok)
+    [Saved] 7/100 completed.
+--- Processing Question 8 ---
+  Round 1...
+    Agent 0 finished (181 tok)
+    Agent 1 finished (199 tok)
+    Agent 2 finished (303 tok)
+  Round 2...
+    Agent 0 finished (803 tok)
+    Agent 1 finished (714 tok)
+    Agent 2 finished (676 tok)
+    [Saved] 8/100 completed.
+--- Processing Question 9 ---
+  Round 1...
+    Agent 0 finished (246 tok)
+    Agent 1 finished (241 tok)
+    Agent 2 finished (312 tok)
+  Round 2...
+    Agent 0 finished (810 tok)
+    Agent 1 finished (766 tok)
+    Agent 2 finished (764 tok)
+    [Saved] 9/100 completed.
+--- Processing Question 10 ---
+  Round 1...
+    Agent 0 finished (464 tok)
+    Agent 1 finished (404 tok)
+    Agent 2 finished (378 tok)
+  Round 2...
+    Agent 0 finished (949 tok)
+    Agent 1 finished (1013 tok)
+    Agent 2 finished (978 tok)
+    [Saved] 10/100 completed.
+--- Processing Question 11 ---
+  Round 1...
+    Agent 0 finished (441 tok)
+    Agent 1 finished (406 tok)
+    Agent 2 finished (403 tok)
+  Round 2...
+    Agent 0 finished (1115 tok)
+    Agent 1 finished (1106 tok)
+    Agent 2 finished (1118 tok)
+    [Saved] 11/100 completed.
+--- Processing Question 12 ---
+  Round 1...
+    Agent 0 finished (365 tok)
+    Agent 1 finished (422 tok)
+    Agent 2 finished (397 tok)
+  Round 2...
+    Agent 0 finished (1192 tok)
+    Agent 1 finished (1236 tok)
+    Agent 2 finished (1103 tok)
+    [Saved] 12/100 completed.
+--- Processing Question 13 ---
+  Round 1...
+    Agent 0 finished (319 tok)
+    Agent 1 finished (310 tok)
+    Agent 2 finished (301 tok)
+  Round 2...
+    Agent 0 finished (953 tok)
+    Agent 1 finished (858 tok)
+    Agent 2 finished (1000 tok)
+    [Saved] 13/100 completed.
+--- Processing Question 14 ---
+  Round 1...
+    Agent 0 finished (742 tok)
+    Agent 1 finished (475 tok)
+    Agent 2 finished (443 tok)
+  Round 2...
+    Agent 0 finished (1545 tok)
+    Agent 1 finished (1662 tok)
+    Agent 2 finished (1695 tok)
+    [Saved] 14/100 completed.
+--- Processing Question 15 ---
+  Round 1...
+    Agent 0 finished (671 tok)
+    Agent 1 finished (671 tok)
+    Agent 2 finished (671 tok)
+  Round 2...
+    Agent 0 finished (2254 tok)
+    Agent 1 finished (2287 tok)
+    Agent 2 finished (2287 tok)
+    [Saved] 15/100 completed.
+--- Processing Question 16 ---
+  Round 1...
+    Agent 0 finished (337 tok)
+    Agent 1 finished (452 tok)
+    Agent 2 finished (377 tok)
+  Round 2...
+    Agent 0 finished (1244 tok)
+    Agent 1 finished (1187 tok)
+    Agent 2 finished (1272 tok)
+    [Saved] 16/100 completed.
+--- Processing Question 17 ---
+  Round 1...
+    Agent 0 finished (572 tok)
+    Agent 1 finished (415 tok)
+    Agent 2 finished (498 tok)
+  Round 2...
+    Agent 0 finished (1035 tok)
+    Agent 1 finished (1059 tok)
+    Agent 2 finished (1101 tok)
+    [Saved] 17/100 completed.
+--- Processing Question 18 ---
+  Round 1...
+    Agent 0 finished (621 tok)
+    Agent 1 finished (616 tok)
+    Agent 2 finished (597 tok)
+  Round 2...
+    Agent 0 finished (1364 tok)
+    Agent 1 finished (1378 tok)
+    Agent 2 finished (1457 tok)
+    [Saved] 18/100 completed.
+--- Processing Question 19 ---
+  Round 1...
+    Agent 0 finished (499 tok)
+    Agent 1 finished (670 tok)
+    Agent 2 finished (566 tok)
+  Round 2...
+    Agent 0 finished (1898 tok)
+    Agent 1 finished (1751 tok)
+    Agent 2 finished (1960 tok)
+    [Saved] 19/100 completed.
+--- Processing Question 20 ---
+  Round 1...
+    Agent 0 finished (484 tok)
+    Agent 1 finished (487 tok)
+    Agent 2 finished (398 tok)
+  Round 2...
+    Agent 0 finished (1317 tok)
+    Agent 1 finished (1226 tok)
+    Agent 2 finished (1188 tok)
+    [Saved] 20/100 completed.
+--- Processing Question 21 ---
+  Round 1...
+    Agent 0 finished (196 tok)
+    Agent 1 finished (172 tok)
+    Agent 2 finished (166 tok)
+  Round 2...
+    Agent 0 finished (503 tok)
+    Agent 1 finished (434 tok)
+    Agent 2 finished (584 tok)
+    [Saved] 21/100 completed.
+--- Processing Question 22 ---
+  Round 1...
+    Agent 0 finished (551 tok)
+    Agent 1 finished (593 tok)
+    Agent 2 finished (798 tok)
+  Round 2...
+    Agent 0 finished (1551 tok)
+    Agent 1 finished (1530 tok)
+    Agent 2 finished (1454 tok)
+    [Saved] 22/100 completed.
+--- Processing Question 23 ---
+  Round 1...
+    Agent 0 finished (338 tok)
+    Agent 1 finished (278 tok)
+    Agent 2 finished (323 tok)
+  Round 2...
+    Agent 0 finished (918 tok)
+    Agent 1 finished (989 tok)
+    Agent 2 finished (1149 tok)
+    [Saved] 23/100 completed.
+--- Processing Question 24 ---
+  Round 1...
+    Agent 0 finished (348 tok)
+    Agent 1 finished (289 tok)
+    Agent 2 finished (376 tok)
+  Round 2...
+    Agent 0 finished (1064 tok)
+    Agent 1 finished (948 tok)
+    Agent 2 finished (1001 tok)
+    [Saved] 24/100 completed.
+--- Processing Question 25 ---
+  Round 1...
+    Agent 0 finished (126 tok)
+    Agent 1 finished (302 tok)
+    Agent 2 finished (127 tok)
+  Round 2...
+    Agent 0 finished (513 tok)
+    Agent 1 finished (567 tok)
+    Agent 2 finished (524 tok)
+    [Saved] 25/100 completed.
+
+==================================================
+Job Complete. Saved to mmlu-25-_3_2_llama3.1_8b.json
+Total FLOPs used this session: 1.70e+15
+==================================================
+
+Loading results from: mmlu-25-_3_2_llama3.1_8b.json
+[1/25] CORRECT | GT: A | Pred: ['A', 'A', 'A']
+[2/25] CORRECT | GT: C | Pred: ['C', 'C', 'C']
+[3/25] CORRECT | GT: B | Pred: ['B', 'B', 'B']
+[4/25] CORRECT | GT: A | Pred: ['A', 'A', 'A']
+[5/25] CORRECT | GT: D | Pred: ['D', 'D', 'D']
+[6/25] CORRECT | GT: D | Pred: ['D', 'D', 'D']
+[7/25] WRONG | GT: B | Pred: ['A', 'A', 'A']
+[8/25] WRONG | GT: A | Pred: ['D', 'D', 'A']
+[9/25] CORRECT | GT: B | Pred: ['B', 'B', 'D']
+[10/25] WRONG | GT: C | Pred: ['B', 'B', 'B']
+[11/25] WRONG | GT: D | Pred: ['C', 'C', 'C']
+[12/25] WRONG | GT: C | Pred: [None, 'D', 'D']
+[13/25] CORRECT | GT: B | Pred: ['B', 'B', 'B']
+[14/25] WRONG | GT: A | Pred: ['A', 'B', 'B']
+[15/25] SKIP | GT: D | Pred: [None, None, None]
+[16/25] CORRECT | GT: D | Pred: ['D', 'D', 'D']
+[17/25] CORRECT | GT: D | Pred: ['D', 'D', 'D']
+[18/25] WRONG | GT: A | Pred: ['B', 'B', 'A']
+[19/25] CORRECT | GT: C | Pred: ['C', 'C', None]
+[20/25] CORRECT | GT: C | Pred: ['B', 'C', 'C']
+[21/25] CORRECT | GT: A | Pred: ['A', 'A', 'A']
+[22/25] CORRECT | GT: D | Pred: ['A', 'D', 'D']
+[23/25] CORRECT | GT: B | Pred: ['B', 'B', 'B']
+[24/25] WRONG | GT: A | Pred: ['D', 'D', 'A']
+[25/25] WRONG | GT: C | Pred: ['D', None, 'D']
+
+==================================================
+FINAL EVALUATION SUMMARY
+==================================================
+{
+  "evaluated": 24,
+  "total": 25,
+  "skipped": 1,
+  "correct": 15,
+  "mean_accuracy": 0.625,
+  "std": 0.4841229182759271,
+  "stderr": 0.09882117688026186
+}
+Wrote detailed evaluation to: mmlu-25-_3_2_llama3.1_8b_eval.json

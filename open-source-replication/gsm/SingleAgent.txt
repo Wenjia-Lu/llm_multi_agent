@@ -1,0 +1,152 @@
+Loading Tokenizer for meta-llama/Llama-3.1-8B-Instruct...
+Initializing Connection...
+Success: Connected to vLLM.
+Loaded 1319 questions.
+--- Processing Question 1 ---
+  Round 1...
+    Agent 0 finished (321 tok)
+    [Saved] 1/100 completed.
+--- Processing Question 2 ---
+  Round 1...
+    Agent 0 finished (215 tok)
+    [Saved] 2/100 completed.
+--- Processing Question 3 ---
+  Round 1...
+    Agent 0 finished (371 tok)
+    [Saved] 3/100 completed.
+--- Processing Question 4 ---
+  Round 1...
+    Agent 0 finished (213 tok)
+    [Saved] 4/100 completed.
+--- Processing Question 5 ---
+  Round 1...
+    Agent 0 finished (434 tok)
+    [Saved] 5/100 completed.
+--- Processing Question 6 ---
+  Round 1...
+    Agent 0 finished (287 tok)
+    [Saved] 6/100 completed.
+--- Processing Question 7 ---
+  Round 1...
+    Agent 0 finished (296 tok)
+    [Saved] 7/100 completed.
+--- Processing Question 8 ---
+  Round 1...
+    Agent 0 finished (625 tok)
+    [Saved] 8/100 completed.
+--- Processing Question 9 ---
+  Round 1...
+    Agent 0 finished (603 tok)
+    [Saved] 9/100 completed.
+--- Processing Question 10 ---
+  Round 1...
+    Agent 0 finished (313 tok)
+    [Saved] 10/100 completed.
+--- Processing Question 11 ---
+  Round 1...
+    Agent 0 finished (339 tok)
+    [Saved] 11/100 completed.
+--- Processing Question 12 ---
+  Round 1...
+    Agent 0 finished (329 tok)
+    [Saved] 12/100 completed.
+--- Processing Question 13 ---
+  Round 1...
+    Agent 0 finished (410 tok)
+    [Saved] 13/100 completed.
+--- Processing Question 14 ---
+  Round 1...
+    Agent 0 finished (380 tok)
+    [Saved] 14/100 completed.
+--- Processing Question 15 ---
+  Round 1...
+    Agent 0 finished (392 tok)
+    [Saved] 15/100 completed.
+--- Processing Question 16 ---
+  Round 1...
+    Agent 0 finished (453 tok)
+    [Saved] 16/100 completed.
+--- Processing Question 17 ---
+  Round 1...
+    Agent 0 finished (476 tok)
+    [Saved] 17/100 completed.
+--- Processing Question 18 ---
+  Round 1...
+    Agent 0 finished (368 tok)
+    [Saved] 18/100 completed.
+--- Processing Question 19 ---
+  Round 1...
+    Agent 0 finished (273 tok)
+    [Saved] 19/100 completed.
+--- Processing Question 20 ---
+  Round 1...
+    Agent 0 finished (379 tok)
+    [Saved] 20/100 completed.
+--- Processing Question 21 ---
+  Round 1...
+    Agent 0 finished (389 tok)
+    [Saved] 21/100 completed.
+--- Processing Question 22 ---
+  Round 1...
+    Agent 0 finished (390 tok)
+    [Saved] 22/100 completed.
+--- Processing Question 23 ---
+  Round 1...
+    Agent 0 finished (263 tok)
+    [Saved] 23/100 completed.
+--- Processing Question 24 ---
+  Round 1...
+    Agent 0 finished (224 tok)
+    [Saved] 24/100 completed.
+--- Processing Question 25 ---
+  Round 1...
+    Agent 0 finished (242 tok)
+    [Saved] 25/100 completed.
+
+==================================================
+COMPUTE USAGE SUMMARY (Llama 3.1 8B)
+==================================================
+Total API calls: 25
+Total tokens used: 8985
+Total FLOPs: 1.44e+14
+Total PetaFLOPs: 0.144299
+==================================================
+Done.
+
+Loading results from: gsm_1_1_llama3.1_8b_official.json
+------------------------------------------------------------
+#     | STATUS     | GT         | PRED (Vote) | RAW VOTES
+------------------------------------------------------------
+1     | CORRECT    | 18         | 18         | ['18']
+2     | CORRECT    | 3          | 3          | ['3']
+3     | CORRECT    | 70000      | 70000      | ['70000']
+4     | CORRECT    | 540        | 540        | ['540']
+5     | CORRECT    | 20         | 20         | ['20']
+6     | CORRECT    | 64         | 64         | ['64']
+7     | CORRECT    | 260        | 260        | ['260']
+8     | WRONG      | 160        | 40         | ['40']
+9     | WRONG      | 45         | 285        | ['285']
+10    | CORRECT    | 460        | 460        | ['460']
+11    | CORRECT    | 366        | 366        | ['366']
+12    | CORRECT    | 694        | 694        | ['694']
+13    | CORRECT    | 13         | 13         | ['13']
+14    | CORRECT    | 18         | 18         | ['18']
+15    | CORRECT    | 60         | 60         | ['60']
+16    | WRONG      | 125        | 96         | ['96']
+17    | WRONG      | 230        | 83.56      | ['83.56']
+18    | CORRECT    | 57500      | 57500      | ['57500']
+19    | CORRECT    | 7          | 7          | ['7']
+20    | CORRECT    | 6          | 6          | ['6']
+21    | CORRECT    | 15         | 15         | ['15']
+22    | WRONG      | 14         | 8          | ['8']
+23    | CORRECT    | 7          | 7          | ['7']
+24    | CORRECT    | 8          | 8          | ['8']
+25    | WRONG      | 26         | 26.00      | ['26.00']
+------------------------------------------------------------
+FINAL MATH EVALUATION
+------------------------------------------------------------
+Total Questions: 25
+Total Correct:   19
+Accuracy:        76.00%
+------------------------------------------------------------
+Saved details to gsm_1_1_llama3.1_8b_official_eval.json

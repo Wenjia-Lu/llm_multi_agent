@@ -1,0 +1,149 @@
+Loading Tokenizer for meta-llama/Llama-3.1-8B-Instruct...
+Initializing Connection...
+Success: Connected to vLLM.
+--- Processing Question 1 ---
+  Round 1...
+    Agent 0 finished (195 tok)
+    [Saved] 1/100 completed.
+--- Processing Question 2 ---
+  Round 1...
+    Agent 0 finished (361 tok)
+    [Saved] 2/100 completed.
+--- Processing Question 3 ---
+  Round 1...
+    Agent 0 finished (277 tok)
+    [Saved] 3/100 completed.
+--- Processing Question 4 ---
+  Round 1...
+    Agent 0 finished (276 tok)
+    [Saved] 4/100 completed.
+--- Processing Question 5 ---
+  Round 1...
+    Agent 0 finished (178 tok)
+    [Saved] 5/100 completed.
+--- Processing Question 6 ---
+  Round 1...
+    Agent 0 finished (195 tok)
+    [Saved] 6/100 completed.
+--- Processing Question 7 ---
+  Round 1...
+    Agent 0 finished (609 tok)
+    [Saved] 7/100 completed.
+--- Processing Question 8 ---
+  Round 1...
+    Agent 0 finished (199 tok)
+    [Saved] 8/100 completed.
+--- Processing Question 9 ---
+  Round 1...
+    Agent 0 finished (214 tok)
+    [Saved] 9/100 completed.
+--- Processing Question 10 ---
+  Round 1...
+    Agent 0 finished (385 tok)
+    [Saved] 10/100 completed.
+--- Processing Question 11 ---
+  Round 1...
+    Agent 0 finished (422 tok)
+    [Saved] 11/100 completed.
+--- Processing Question 12 ---
+  Round 1...
+    Agent 0 finished (433 tok)
+    [Saved] 12/100 completed.
+--- Processing Question 13 ---
+  Round 1...
+    Agent 0 finished (416 tok)
+    [Saved] 13/100 completed.
+--- Processing Question 14 ---
+  Round 1...
+    Agent 0 finished (625 tok)
+    [Saved] 14/100 completed.
+--- Processing Question 15 ---
+  Round 1...
+    Agent 0 finished (671 tok)
+    [Saved] 15/100 completed.
+--- Processing Question 16 ---
+  Round 1...
+    Agent 0 finished (353 tok)
+    [Saved] 16/100 completed.
+--- Processing Question 17 ---
+  Round 1...
+    Agent 0 finished (507 tok)
+    [Saved] 17/100 completed.
+--- Processing Question 18 ---
+  Round 1...
+    Agent 0 finished (601 tok)
+    [Saved] 18/100 completed.
+--- Processing Question 19 ---
+  Round 1...
+    Agent 0 finished (582 tok)
+    [Saved] 19/100 completed.
+--- Processing Question 20 ---
+  Round 1...
+    Agent 0 finished (578 tok)
+    [Saved] 20/100 completed.
+--- Processing Question 21 ---
+  Round 1...
+    Agent 0 finished (169 tok)
+    [Saved] 21/100 completed.
+--- Processing Question 22 ---
+  Round 1...
+    Agent 0 finished (661 tok)
+    [Saved] 22/100 completed.
+--- Processing Question 23 ---
+  Round 1...
+    Agent 0 finished (215 tok)
+    [Saved] 23/100 completed.
+--- Processing Question 24 ---
+  Round 1...
+    Agent 0 finished (358 tok)
+    [Saved] 24/100 completed.
+--- Processing Question 25 ---
+  Round 1...
+    Agent 0 finished (380 tok)
+    [Saved] 25/100 completed.
+
+==================================================
+Job Complete. Saved to mmlu-25-_1_1_llama3.1_8b.json
+Total FLOPs used this session: 1.58e+14
+==================================================
+
+Loading results from: mmlu-25-_1_1_llama3.1_8b.json
+[1/25] CORRECT | GT: A | Pred: ['A']
+[2/25] CORRECT | GT: C | Pred: ['C']
+[3/25] CORRECT | GT: B | Pred: ['B']
+[4/25] CORRECT | GT: A | Pred: ['A']
+[5/25] CORRECT | GT: D | Pred: ['D']
+[6/25] CORRECT | GT: D | Pred: ['D']
+[7/25] CORRECT | GT: B | Pred: ['B']
+[8/25] CORRECT | GT: A | Pred: ['A']
+[9/25] CORRECT | GT: B | Pred: ['B']
+[10/25] WRONG | GT: C | Pred: ['B']
+[11/25] WRONG | GT: D | Pred: ['C']
+[12/25] WRONG | GT: C | Pred: ['D']
+[13/25] CORRECT | GT: B | Pred: ['B']
+[14/25] WRONG | GT: A | Pred: ['C']
+[15/25] SKIP | GT: D | Pred: [None]
+[16/25] CORRECT | GT: D | Pred: ['D']
+[17/25] CORRECT | GT: D | Pred: ['D']
+[18/25] WRONG | GT: A | Pred: ['B']
+[19/25] SKIP | GT: C | Pred: [None]
+[20/25] WRONG | GT: C | Pred: ['D']
+[21/25] CORRECT | GT: A | Pred: ['A']
+[22/25] SKIP | GT: D | Pred: [None]
+[23/25] CORRECT | GT: B | Pred: ['B']
+[24/25] CORRECT | GT: A | Pred: ['A']
+[25/25] WRONG | GT: C | Pred: ['A']
+
+==================================================
+FINAL EVALUATION SUMMARY
+==================================================
+{
+  "evaluated": 22,
+  "total": 25,
+  "skipped": 3,
+  "correct": 15,
+  "mean_accuracy": 0.6818181818181818,
+  "std": 0.46577048936179993,
+  "stderr": 0.09930260198923897
+}
+Wrote detailed evaluation to: mmlu-25-_1_1_llama3.1_8b_eval.json

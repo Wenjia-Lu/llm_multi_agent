@@ -1,0 +1,73 @@
+==================================================
+COMPUTE USAGE SUMMARY (Llama 3.1 8B Bio)
+==================================================
+Total API calls: 141
+Total tokens used: 124857
+Total FLOPs: 2.01e+15
+Total PetaFLOPs: 2.005203
+==================================================
+Results saved to biography_3_2_llama3.1_8b.json
+
+Loading Results: biography_3_2_llama3.1_8b.json
+Loading Truth:   article.json
+[1/25] Evaluating Darrell Long (7 facts)...
+    --> Score: 5/7 | Running Avg: 71.43%
+[2/25] Skipping Jürg Gutknecht (Bio too short)
+[3/25] Evaluating Stephen R. Bourne (9 facts)...
+    --> Score: 3/9 | Running Avg: 50.00%
+[4/25] Evaluating Lawrence J. Fogel (7 facts)...
+    --> Score: 6/7 | Running Avg: 60.87%
+[5/25] Evaluating Bryan Cantrill (11 facts)...
+    --> Score: 7/11 | Running Avg: 61.76%
+[6/25] Evaluating Latanya Sweeney (9 facts)...
+    --> Score: 6/9 | Running Avg: 62.79%
+[7/25] Evaluating Paritosh Pandya (10 facts)...
+    --> Score: 0/10 | Running Avg: 51.92%
+[8/25] Evaluating Jie Wu (9 facts)...
+    --> Score: 4/9 | Running Avg: 51.67%
+[9/25] Evaluating Mary Jane Irwin (9 facts)...
+    --> Score: 4/9 | Running Avg: 50.72%
+[10/25] Evaluating Steven Rudich (8 facts)...
+    --> Score: 6/8 | Running Avg: 53.25%
+[11/25] Skipping Bernard Richards (Bio too short)
+[12/25] Evaluating David S. Johnson (10 facts)...
+    --> Score: 7/10 | Running Avg: 55.17%
+[13/25] Evaluating Zohar Manna (6 facts)...
+    --> Score: 4/6 | Running Avg: 55.91%
+[14/25] Evaluating Charles P. Thacker (9 facts)...
+    --> Score: 4/9 | Running Avg: 54.90%
+[15/25] Evaluating John George Kemeny (13 facts)...
+    --> Score: 9/13 | Running Avg: 56.52%
+[16/25] Evaluating Yorick Wilks (10 facts)...
+    --> Score: 3/10 | Running Avg: 54.40%
+[17/25] Evaluating Valerie Taylor (10 facts)...
+    --> Score: 0/10 | Running Avg: 50.37%
+[18/25] Evaluating Susan L. Graham (8 facts)...
+    --> Score: 7/8 | Running Avg: 52.45%
+[19/25] Evaluating Charles H. Moore (10 facts)...
+    --> Score: 6/10 | Running Avg: 52.94%
+[20/25] Evaluating Madhu Sudan (8 facts)...
+    --> Score: 3/8 | Running Avg: 52.17%
+[21/25] Evaluating Rasmus Lerdorf (9 facts)...
+    --> Score: 6/9 | Running Avg: 53.25%
+[22/25] Evaluating Ian Goldberg (11 facts)...
+    --> Score: 7/11 | Running Avg: 53.89%
+[23/25] Evaluating Dan Jurafsky (6 facts)...
+    --> Score: 4/6 | Running Avg: 54.30%
+[24/25] Evaluating James H. Wilkinson (8 facts)...
+    --> Score: 5/8 | Running Avg: 54.64%
+[25/25] Skipping Pino Caballero Gil (Bio too short)
+
+==================================================
+FINAL BIOGRAPHY EVALUATION
+==================================================
+{
+  "evaluated_facts": 194,
+  "total_facts": 197,
+  "skipped": 3,
+  "consistent_facts": 106,
+  "mean_accuracy": 0.5463917525773195,
+  "std": 0.4978431533051396,
+  "stderr": 0.03574305536274063
+}
+Wrote evaluation results to: biography_3_2_llama3.1_8b_eval.json
