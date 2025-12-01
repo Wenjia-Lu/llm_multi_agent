@@ -1,0 +1,11 @@
+{
+    "model_name": "mistralai/Mathstral-7B-v0.1",
+    "model_type": "local",
+    "model_path": null,
+    "device": "cpu",
+    "quantization": null,
+    "temperature": 0.7,
+    "max_tokens": 4096,
+    "context_length": 4096,
+    "parameter_count": 7000000000
+}

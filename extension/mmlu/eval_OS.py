@@ -103,7 +103,7 @@ def most_frequent(List):
 # ==========================================
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("input", nargs="?", default="mmlu-25-_1_1_llama3.1_8b.json", 
+    parser.add_argument("input", nargs="?", default="mmlu-25-_1_1_mistralai_Mistral_7B_Instruct_v0_2.json",
                         help="input JSON file produced by generation")
     parser.add_argument("-o", "--output", help="output JSON evaluation filename")
     args = parser.parse_args()

@@ -5,16 +5,87 @@ import os
 import time
 import numpy as np
 from pathlib import Path
-from openai import OpenAI  # Using OpenAI client for vLLM connection
 
 # ==========================================
-# 1. SETUP
+# DEFAULT CONFIGURATION
 # ==========================================
-# Initialize vLLM client
-client = OpenAI(
-    base_url="http://localhost:8000/v1",
-    api_key="EMPTY"
-)
+DEFAULT_CONFIG_FILE = "llm/configs/llama3.1-8B-instruct.json"
+DEFAULT_AGENTS = 1
+DEFAULT_ROUNDS = 1
+
+# ==========================================
+# 1. SETUP PATHS & IMPORTS
+# ==========================================
+script_path = Path(__file__).resolve()
+project_root = script_path.parents[2]
+
+# Add project root to sys.path for imports
+sys.path.append(str(project_root))
+
+try:
+    from llm.implementations.local_llm import LocalLLM
+    from llm.core.config import LLMConfig
+except ImportError as e:
+    print(f"[!] Import Error: {e}")
+    sys.exit(1)
+
+# ==========================================
+# 2. LOAD CONFIG AND INITIALIZE MODEL
+# ==========================================
+
+# Parse command line arguments for config
+parser = argparse.ArgumentParser()
+parser.add_argument("--config", default=DEFAULT_CONFIG_FILE,
+                   help=f"Path to LLM config JSON file (default: {DEFAULT_CONFIG_FILE})")
+parser.add_argument("--agents", type=int, default=DEFAULT_AGENTS,
+                   help=f"Number of agents used (default: {DEFAULT_AGENTS})")
+parser.add_argument("--rounds", type=int, default=DEFAULT_ROUNDS,
+                   help=f"Number of rounds used (default: {DEFAULT_ROUNDS})")
+# Add other arguments that will be parsed later
+parser.add_argument("input", nargs="?", help="Input JSON file from gen_OS.py (auto-generated if not provided)")
+parser.add_argument("--ref", default="article.json", help="Path to reference articles")
+
+args = parser.parse_args()
+
+# Auto-generate input filename if not provided
+if not args.input:
+    config_name = Path(args.config).stem  # Gets filename without extension
+    config_short_name = config_name.replace("-", "_").replace("/", "_")
+    args.input = f"biography_{args.agents}_{args.rounds}_{config_short_name}.json"
+
+# Make config path relative to project root if it's not an absolute path
+config_path = args.config
+if not os.path.isabs(config_path):
+    config_path = project_root / config_path
+
+print(f"Loading config from: {config_path}")
+try:
+    with open(config_path, 'r') as f:
+        config_data = json.load(f)
+
+    # Convert to LLMConfig object
+    config = LLMConfig(
+        model_name=config_data["model_name"],
+        model_type=config_data["model_type"],
+        temperature=config_data["temperature"],
+        max_tokens=config_data["max_tokens"],
+        context_length=config_data["context_length"],
+        parameter_count=config_data["parameter_count"],
+        model_path=config_data.get("model_path"),
+        device=config_data.get("device"),
+        quantization=config_data.get("quantization")
+    )
+except Exception as e:
+    print(f"[!] Config loading failed: {e}")
+    sys.exit(1)
+
+print(f"Initializing {config.model_name}...")
+try:
+    mas_model = LocalLLM(config=config)
+    print("Success: Local LLM loaded.")
+except Exception as e:
+    print(f"[!] Model initialization failed: {e}")
+    sys.exit(1)
 
 # ==========================================
 # 2. HELPER FUNCTIONS
@@ -63,7 +134,7 @@ def filter_people(person):
 
 def check_fact(person, bio_text, fact):
     """
-    Asks Llama 3.1 if the bio supports the specific fact.
+    Asks the local LLM if the bio supports the specific fact.
     """
     prompt = f"""
     Consider the following biography of {person}:
@@ -75,28 +146,20 @@ def check_fact(person, bio_text, fact):
     Give a single word answer: Yes, No, or Uncertain.
     Carefully check precise dates, names, and locations.
     """
-    
+
     try:
-        response = client.chat.completions.create(
-            model="meta-llama/Llama-3.1-8B-Instruct",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.0, # Deterministic
-            max_tokens=10
-        )
-        return response.choices[0].message.content
+        response = mas_model.generate(prompt, temperature=0.0, max_tokens=10)
+        return response.text.strip()
     except Exception as e:
-        print(f"[!] API Error: {e}")
+        print(f"[!] Model Error: {e}")
         return "Error"
 
 # ==========================================
 # 3. MAIN EVALUATION LOOP
 # ==========================================
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser()
-    parser.add_argument("input", nargs="?", default="biography_1_1_llama3.1_8b.json", 
-                        help="Input JSON file from gen_bio.py")
-    parser.add_argument("--ref", default="article.json", help="Path to reference articles")
-    args = parser.parse_args()
+    # Arguments already parsed above
+    pass
 
     # Locate files
     script_dir = Path(__file__).resolve().parent

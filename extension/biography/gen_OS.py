@@ -3,59 +3,84 @@ import os
 import time
 import random
 import json
+import argparse
 from tqdm import tqdm
 from pathlib import Path
 from transformers import AutoTokenizer
 
 # ==========================================
+# DEFAULT CONFIGURATION
+# ==========================================
+DEFAULT_CONFIG_FILE = "llm/configs/llama3.1-8B-instruct.json"
+DEFAULT_AGENTS = 1
+DEFAULT_ROUNDS = 1
+
+# ==========================================
 # 1. SETUP PATHS & IMPORTS
 # ==========================================
 script_path = Path(__file__).resolve()
-project_root = script_path.parents[2] 
-xmas_path = project_root / "X-MAS"
+project_root = script_path.parents[2]
 
-if not xmas_path.exists():
-    xmas_path = project_root / "x-mas"
-if not xmas_path.exists():
-    print(f"[!] Critical Error: Could not find 'X-MAS' folder at {xmas_path}")
-    sys.exit(1)
-
-sys.path.append(str(xmas_path))
+# Add project root to sys.path for imports
+sys.path.append(str(project_root))
 
 try:
-    from llm.implementations.api_llm import APILLM
+    from llm.implementations.local_llm import LocalLLM
     from llm.core.config import LLMConfig
 except ImportError as e:
     print(f"[!] Import Error: {e}")
     sys.exit(1)
 
 # ==========================================
-# 2. INITIALIZE MODEL
+# 2. LOAD CONFIG AND INITIALIZE MODEL
 # ==========================================
-MODEL_NAME = "meta-llama/Llama-3.1-8B-Instruct"
-PARAM_COUNT = 8_030_000_000 
 
-print(f"Loading Tokenizer for {MODEL_NAME}...")
-try:
-    tokenizer = AutoTokenizer.from_pretrained(MODEL_NAME, trust_remote_code=True)
-except Exception as e:
-    print(f"[!] Warning: Tokenizer failed ({e}). FLOPs will be estimated.")
-    tokenizer = None
+# Parse command line arguments
+parser = argparse.ArgumentParser()
+parser.add_argument("--config", default=DEFAULT_CONFIG_FILE,
+                   help=f"Path to LLM config JSON file (default: {DEFAULT_CONFIG_FILE})")
+parser.add_argument("--agents", type=int, default=DEFAULT_AGENTS,
+                   help=f"Number of agents to use (default: {DEFAULT_AGENTS})")
+parser.add_argument("--rounds", type=int, default=DEFAULT_ROUNDS,
+                   help=f"Number of debate rounds (default: {DEFAULT_ROUNDS})")
+args = parser.parse_args()
 
-print("Initializing Connection...")
+# Make config path relative to project root if it's not an absolute path
+config_path = args.config
+if not os.path.isabs(config_path):
+    config_path = project_root / config_path
+
+print(f"Loading config from: {config_path}")
 try:
-    API_URL = "http://localhost:8000/v1" 
-    
+    with open(config_path, 'r') as f:
+        config_data = json.load(f)
+
+    # Convert to LLMConfig object
     config = LLMConfig(
-        model_name=MODEL_NAME, model_type="api", temperature=0.7,
-        max_tokens=512, context_length=8192, parameter_count=PARAM_COUNT,
-        api_url=API_URL, api_key="EMPTY"
+        model_name=config_data["model_name"],
+        model_type=config_data["model_type"],
+        temperature=config_data["temperature"],
+        max_tokens=config_data["max_tokens"],
+        context_length=config_data["context_length"],
+        parameter_count=config_data["parameter_count"],
+        model_path=config_data.get("model_path"),
+        device=config_data.get("device"),
+        quantization=config_data.get("quantization")
     )
-    mas_model = APILLM(config=config)
-    print("Success: Connected to vLLM.")
 except Exception as e:
-    print(f"[!] Connection Failed: {e}")
+    print(f"[!] Config loading failed: {e}")
     sys.exit(1)
+
+print(f"Initializing {config.model_name}...")
+try:
+    mas_model = LocalLLM(config=config)
+    print("Success: Local LLM loaded.")
+except Exception as e:
+    print(f"[!] Model initialization failed: {e}")
+    sys.exit(1)
+
+# Cache the tokenizer for token counting (if available)
+tokenizer = mas_model.tokenizer if hasattr(mas_model, 'tokenizer') else None
 
 # ==========================================
 # 3. HELPER FUNCTIONS
@@ -68,7 +93,7 @@ def get_real_token_count(text):
         return len(text) // 4
 
 def calculate_flops(token_count):
-    return 2 * PARAM_COUNT * token_count
+    return 2 * config.parameter_count * token_count
 
 def parse_bullets(sentence):
     bullets_preprocess = sentence.split("\n")
@@ -119,14 +144,19 @@ def generate_answer(answer_context):
 
         response_object = mas_model.generate(prompt_text)
 
-        if hasattr(response_object, "content"): response_text = response_object.content
-        elif hasattr(response_object, "text"): response_text = response_object.text
-        elif isinstance(response_object, str): response_text = response_object
-        else: response_text = str(response_object)
+        # Extract text from LLMResponse object
+        response_text = response_object.text
 
-        prompt_tokens = get_real_token_count(prompt_text)
-        completion_tokens = get_real_token_count(response_text)
-        total_tokens = prompt_tokens + completion_tokens
+        # Use token counts from the response if available, otherwise estimate
+        if hasattr(response_object, 'input_tokens') and hasattr(response_object, 'output_tokens'):
+            prompt_tokens = response_object.input_tokens
+            completion_tokens = response_object.output_tokens
+            total_tokens = response_object.total_tokens
+        else:
+            prompt_tokens = get_real_token_count(prompt_text)
+            completion_tokens = get_real_token_count(response_text)
+            total_tokens = prompt_tokens + completion_tokens
+
         flops = calculate_flops(total_tokens)
 
         completion = {
@@ -150,8 +180,7 @@ def generate_answer(answer_context):
 # 4. MAIN LOOP
 # ==========================================
 if __name__ == "__main__":
-    
-    os.environ["no_proxy"] = "localhost,127.0.0.1,0.0.0.0"
+    pass  # Arguments already parsed above
 
     input_file = "article.json"
     if not os.path.exists(input_file):
@@ -176,14 +205,17 @@ if __name__ == "__main__":
     print(f"Processing subset of {len(people)} people.")
     # ==========================
 
-    agents = 1
-    rounds = 1
+    agents = args.agents
+    rounds = args.rounds
 
     total_tokens = 0
     total_flops = 0
     api_calls = 0
 
-    outfile = f"biography_{agents}_{rounds}_llama3.1_8b.json"
+    # Extract config name from config file path
+    config_name = Path(args.config).stem  # Gets filename without extension
+    config_short_name = config_name.replace("-", "_").replace("/", "_")
+    outfile = f"biography_{agents}_{rounds}_{config_short_name}.json"
     generated_description = {}
 
     if os.path.exists(outfile):
@@ -236,7 +268,7 @@ if __name__ == "__main__":
             json.dump(generated_description, f, indent=4)
 
     print("\n" + "="*50)
-    print("COMPUTE USAGE SUMMARY (Llama 3.1 8B Bio)")
+    print(f"COMPUTE USAGE SUMMARY ({config.model_name} Bio)")
     print("="*50)
     print(f"Total API calls: {api_calls}")
     print(f"Total tokens used: {total_tokens}")

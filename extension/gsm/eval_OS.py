@@ -7,6 +7,13 @@ import numpy as np
 from collections import Counter
 
 # ==========================================
+# DEFAULT CONFIGURATION
+# ==========================================
+DEFAULT_CONFIG_FILE = "llm/configs/llama3.1-8B-instruct.json"
+DEFAULT_AGENTS = 1
+DEFAULT_ROUNDS = 1
+
+# ==========================================
 # 1. PARSING LOGIC
 # ==========================================
 
@@ -89,11 +96,23 @@ def check_correctness(ground_truth, prediction):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    # Default matches your gen_math.py output
-    parser.add_argument("input", nargs="?", default="gsm_1_1_llama3.1_8b_official.json", 
-                        help="Input JSON file from gen_math.py")
+    # Dynamic file matching based on config and agents
+    parser.add_argument("--config", default=DEFAULT_CONFIG_FILE,
+                       help=f"Path to LLM config JSON file used for generation (default: {DEFAULT_CONFIG_FILE})")
+    parser.add_argument("--agents", type=int, default=DEFAULT_AGENTS,
+                       help=f"Number of agents used (default: {DEFAULT_AGENTS})")
+    parser.add_argument("--rounds", type=int, default=DEFAULT_ROUNDS,
+                       help=f"Number of rounds used (default: {DEFAULT_ROUNDS})")
+    parser.add_argument("input", nargs="?", help="Input JSON file from gen_OS.py (auto-generated if not provided)")
     parser.add_argument("-o", "--output", help="Output JSON evaluation filename")
     args = parser.parse_args()
+
+    # Auto-generate input filename if not provided
+    if not args.input:
+        from pathlib import Path
+        config_name = Path(args.config).stem  # Gets filename without extension
+        config_short_name = config_name.replace("-", "_").replace("/", "_")
+        args.input = f"gsm_{args.agents}_{args.rounds}_{config_short_name}.json"
 
     if not os.path.exists(args.input):
         print(f"[!] Error: Input file '{args.input}' not found.")
