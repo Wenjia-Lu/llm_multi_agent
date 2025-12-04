@@ -1,4 +1,4 @@
-# Improving Factuality and Reasoning in Language Models through Multiagent Debate
+# Building Multi-Agent Debate Frameworks for Factual LLM’s
 
 ### [Project Page](https://composable-models.github.io/llm_debate/) | [Paper](https://arxiv.org/abs/2305.14325) 
 
@@ -8,7 +8,8 @@
 [Joshua B. Tenenbaum](https://scholar.google.com/citations?user=rRJ9wTJMUB8C&hl=en),
 [Igor Mordatch](https://scholar.google.com/citations?user=Vzr1RukAAAAJ&hl=en)
 
-This is a preliminary implementation of the paper "Improving Factuality and Reasoning in Language Models through Multiagent Debate". More tasks and settings will be released soon. 
+This is a preliminary implementation of the paper "Building Multi-Agent Debate Frameworks for Factual LLM’s
+". More tasks and settings will be released soon. 
 You may see some additional debate logs [here](https://www.dropbox.com/sh/6kq5ixfnf4zqk09/AABezsYsBhgg1IQAZ12yQ43_a?dl=0).
 
 Also, check out gauss5930's awesome implementation of multiagent debate on opensource LLMs [here](https://github.com/gauss5930/LLM-Agora)!
@@ -57,22 +58,13 @@ To evaluate the generated results of MMLU:
 You can download the MMLU dataset [here](https://github.com/hendrycks/test)
 
 ## References
-* Balaji, P. G.; and Srinivasan, D. 2010. An Introduction to Multi-Agent Systems,
- 1–27. Berlin, Heidelberg: Springer Berlin Heidelberg. ISBN 978-3-642-14435-6.
-* Dong, K. 2024. Large Language Model Applied in Multiagent System: A Survey.
- Applied and Computational Engineering, 109: 9–16.
-* Du, Y.; Li, S.; Torralba, A.; Tenenbaum, J. B.; and Mordatch, I. 2024. Improving 
-Factuality and Reasoning in Language Models through Multiagent Debate. 
-arXiv:2305.14325.
-* Eo, S.; Moon, H.; Zi, E. H.; Park, C.; and Lim, H. 2025. Debate Only When 
-Necessary: Adaptive Multiagent Collaboration for Efficient LLM Reasoning.
-arXiv:2504.05047.
-* Ye, R.; Liu, X.; Wu, Q.; Pang, X.; Yin, Z.; Bai, L.; and Chen, S. 2025. X-MAS: 
-Towards Building Multi-Agent Systems with Heterogeneous LLMs. arXiv:2505.16997.
-* Zhang, H.; Cui, Z.; Chen, J.; Wang, X.; Zhang, Q.; Wang, Z.; Wu, D.; and Hu, S.
- 2025. Stop Overvaluing Multi-Agent
-* Debate – We Must Rethink Evaluation and Embrace Model Heterogeneity.
- arXiv:2502.08788.
+* Balaji, P. G.; and Srinivasan, D. 2010. An Introduction to Multi-Agent Systems, 1–27. Berlin, Heidelberg: Springer Berlin Heidelberg. ISBN 978-3-642-14435-6.
+* Dong, K. 2024. Large Language Model Applied in Multiagent System: A Survey. Applied and Computational Engineering, 109: 9–16.
+* Du, Y.; Li, S.; Torralba, A.; Tenenbaum, J. B.; and Mordatch, I. 2024. Improving Factuality and Reasoning in Language Models through Multiagent Debate. arXiv:2305.14325.
+* Eo, S.; Moon, H.; Zi, E. H.; Park, C.; and Lim, H. 2025. Debate Only When Necessary: Adaptive Multiagent Collaboration for Efficient LLM Reasoning. arXiv:2504.05047.
+* Ye, R.; Liu, X.; Wu, Q.; Pang, X.; Yin, Z.; Bai, L.; and Chen, S. 2025. X-MAS: Towards Building Multi-Agent Systems with Heterogeneous LLMs. arXiv:2505.16997.
+* Zhang, H.; Cui, Z.; Chen, J.; Wang, X.; Zhang, Q.; Wang, Z.; Wu, D.; and Hu, S. 2025. Stop Overvaluing Multi-Agent
+* Debate – We Must Rethink Evaluation and Embrace Model Heterogeneity. arXiv:2502.08788.
 
 If you would like to cite the paper, here is a bibtex file:
 ```
