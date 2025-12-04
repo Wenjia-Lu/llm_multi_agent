@@ -56,12 +56,25 @@ To evaluate the generated results of MMLU:
 	
 You can download the MMLU dataset [here](https://github.com/hendrycks/test)
 
+**References:**
+[1] Balaji, P. G.; and Srinivasan, D. 2010. An Introduction to Multi-Agent Systems,
+ 1–27. Berlin, Heidelberg: Springer Berlin Heidelberg. ISBN 978-3-642-14435-6.
+[2] Dong, K. 2024. Large Language Model Applied in Multiagent System: A Survey.
+ Applied and Computational Engineering, 109: 9–16.
+[3] Du, Y.; Li, S.; Torralba, A.; Tenenbaum, J. B.; and Mordatch, I. 2024. Improving 
+Factuality and Reasoning in Language Models through Multiagent Debate. 
+arXiv:2305.14325.
+[4] Eo, S.; Moon, H.; Zi, E. H.; Park, C.; and Lim, H. 2025. Debate Only When 
+Necessary: Adaptive Multiagent Collaboration for Efficient LLM Reasoning.
+arXiv:2504.05047.
+[5] Ye, R.; Liu, X.; Wu, Q.; Pang, X.; Yin, Z.; Bai, L.; and Chen, S. 2025. X-MAS: 
+Towards Building Multi-Agent Systems with Heterogeneous LLMs. arXiv:2505.16997.
+[6] Zhang, H.; Cui, Z.; Chen, J.; Wang, X.; Zhang, Q.; Wang, Z.; Wu, D.; and Hu, S.
+ 2025. Stop Overvaluing Multi-Agent
+[7] Debate – We Must Rethink Evaluation and Embrace Model Heterogeneity.
+ arXiv:2502.08788.
+
 If you would like to cite the paper, here is a bibtex file:
 ```
-@article{du2023improving,
-  title={Improving Factuality and Reasoning in Language Models through Multiagent Debate},
-  author={Du, Yilun and Li, Shuang and Torralba, Antonio and Tenenbaum, Joshua B and Mordatch, Igor},
-  journal={arXiv preprint arXiv:2305.14325},
-  year={2023}
-}
+TODO
 ```
