@@ -56,7 +56,7 @@ To evaluate the generated results of MMLU:
 	
 You can download the MMLU dataset [here](https://github.com/hendrycks/test)
 
-**References:**
+## References
 * Balaji, P. G.; and Srinivasan, D. 2010. An Introduction to Multi-Agent Systems,
  1–27. Berlin, Heidelberg: Springer Berlin Heidelberg. ISBN 978-3-642-14435-6.
 * Dong, K. 2024. Large Language Model Applied in Multiagent System: A Survey.
