@@ -206,11 +206,13 @@ if __name__ == "__main__":
         gt_bullets = parse_bullets(gt_description)
         
         # Get Generated Biography (The last response from the debate)
-        # Structure: [Round 1, Round 2] -> Round 2 is last
+        # Structure: (agent_contexts, confidence_score, "debated"/"gated", usage_dict)
+        # agent_contexts: [Round 1, Round 2] -> Round 2 is last
         # Inside Round 2: [Agent 0, Agent 1, Agent 2] -> We usually pick the last agent or merge
         # Let's take the LAST agent's final answer from the FINAL round
         try:
-            agent_history = response_data[person][-1] # Last agent context
+            agent_contexts = response_data[person][0]  # Get agent_contexts (first element of tuple)
+            agent_history = agent_contexts[-1]        # Last agent context
             last_message = agent_history[-1]          # Last message
             bio_description = last_message['content'] if isinstance(last_message, dict) else str(last_message)
         except (IndexError, KeyError, TypeError):

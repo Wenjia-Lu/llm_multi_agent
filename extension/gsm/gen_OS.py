@@ -45,8 +45,8 @@ except ImportError as e:
 parser = argparse.ArgumentParser()
 parser.add_argument("--rounds", type=int, default=DEFAULT_ROUNDS,
                    help=f"Number of debate rounds (default: {DEFAULT_ROUNDS})")
-parser.add_argument("--confidence_threshold", type=float, default=0.95,
-                   help="Confidence threshold for gating (default: 0.95)")
+parser.add_argument("--confidence_threshold", type=float, default=0.8,
+                   help="Confidence threshold for gating (default: 0.8)")
 args = parser.parse_args()
 
 # Load all three agents
@@ -257,8 +257,8 @@ if __name__ == "__main__":
             print("[Resume] File corrupted. Starting fresh.")
     # --------------------
 
-    # Limit to 3 for this run (Change as needed)
-    for i, data in enumerate(questions[:3]):
+    # Limit to 100 for this run (Change as needed)
+    for i, data in enumerate(questions[:100]):
         question = data['question']
         answer = data['answer']
 
@@ -286,12 +286,32 @@ if __name__ == "__main__":
 
         print(f"  Initial confidence: {confidence_score}")
 
+        # Initialize usage tracking for this question
+        question_tokens = 0
+        question_flops = 0
+        question_api_calls = 0
+
         # Check if confidence meets threshold
         if confidence_score >= confidence_threshold:
             print(f"  Confidence {confidence_score} >= {confidence_threshold}, skipping debate")
             # Store only the gate agent's response
             agent_contexts = [gate_context + [{"role": "assistant", "content": gate_response}]]
-            generated_description[question] = (agent_contexts, answer, confidence_score, "gated")
+
+            # Track gate agent usage
+            if gate_usage:
+                question_tokens += gate_usage.get('total_tokens', 0)
+                question_flops += gate_usage.get('flops', 0)
+                question_api_calls += 1
+                total_tokens += gate_usage.get('total_tokens', 0)
+                total_flops += gate_usage.get('flops', 0)
+                api_calls += 1
+
+            question_usage = {
+                "total_tokens": question_tokens,
+                "flops": question_flops,
+                "api_calls": question_api_calls
+            }
+            generated_description[question] = (agent_contexts, answer, confidence_score, "gated", question_usage)
         else:
             print(f"  Confidence {confidence_score} < {confidence_threshold}, proceeding with debate")
 
@@ -311,6 +331,9 @@ if __name__ == "__main__":
 
                     # Track usage
                     if usage:
+                        question_tokens += usage.get('total_tokens', 0)
+                        question_flops += usage.get('flops', 0)
+                        question_api_calls += 1
                         total_tokens += usage.get('total_tokens', 0)
                         total_flops += usage.get('flops', 0)
                         api_calls += 1
@@ -320,12 +343,17 @@ if __name__ == "__main__":
                     assistant_message = construct_assistant_message(completion)
                     agent_context.append(assistant_message)
 
-            generated_description[question] = (agent_contexts, answer, confidence_score, "debated")
+            question_usage = {
+                "total_tokens": question_tokens,
+                "flops": question_flops,
+                "api_calls": question_api_calls
+            }
+            generated_description[question] = (agent_contexts, answer, confidence_score, "debated", question_usage)
 
         # --- AUTO SAVE ---
         with open(outfile, "w") as f:
             json.dump(generated_description, f, indent=4)
-        print(f"    [Saved] {len(generated_description)}/25 completed.")
+        print(f"    [Saved] {len(generated_description)}/100 completed.")
         # -----------------
 
     # Final Summary

@@ -26,51 +26,71 @@ except ImportError as e:
     sys.exit(1)
 
 # ==========================================
-# 2. LOAD CONFIG AND INITIALIZE MODEL
+# DEFAULT CONFIGURATION
+# ==========================================
+# Fixed three agents for debate system
+AGENT_CONFIGS = [
+    "llm/configs/llama3.1-8B-instruct.json",
+    "llm/configs/DeepSeek-R1-Qwen-7B.json",
+    "llm/configs/Mathstral-7B.json"
+]
+DEFAULT_AGENTS = 3  # Fixed number of agents
+DEFAULT_ROUNDS = 3  # Default debate rounds
+
+# ==========================================
+# 2. LOAD CONFIG AND INITIALIZE MODELS
 # ==========================================
 
 # Parse command line arguments
 parser = argparse.ArgumentParser()
-parser.add_argument("--config", default="llm/configs/mistral-7B-instruct.json",
-                   help="Path to LLM config JSON file")
+parser.add_argument("--rounds", type=int, default=DEFAULT_ROUNDS,
+                   help=f"Number of debate rounds (default: {DEFAULT_ROUNDS})")
+parser.add_argument("--confidence_threshold", type=float, default=0.8,
+                   help="Confidence threshold for gating (default: 0.8)")
 args = parser.parse_args()
 
-# Make config path relative to project root if it's not an absolute path
-config_path = args.config
-if not os.path.isabs(config_path):
-    config_path = project_root / config_path
+# Load all three agents
+agents = []
+agent_names = []
+for i, config_path in enumerate(AGENT_CONFIGS):
+    # Make config path relative to project root if it's not an absolute path
+    if not os.path.isabs(config_path):
+        full_config_path = project_root / config_path
+    else:
+        full_config_path = config_path
 
-print(f"Loading config from: {config_path}")
-try:
-    with open(config_path, 'r') as f:
-        config_data = json.load(f)
+    print(f"Loading agent {i+1} config from: {full_config_path}")
+    try:
+        with open(full_config_path, 'r') as f:
+            config_data = json.load(f)
 
-    # Convert to LLMConfig object
-    config = LLMConfig(
-        model_name=config_data["model_name"],
-        model_type=config_data["model_type"],
-        temperature=config_data["temperature"],
-        max_tokens=config_data["max_tokens"],
-        context_length=config_data["context_length"],
-        parameter_count=config_data["parameter_count"],
-        model_path=config_data.get("model_path"),
-        device=config_data.get("device"),
-        quantization=config_data.get("quantization")
-    )
-except Exception as e:
-    print(f"[!] Config loading failed: {e}")
-    sys.exit(1)
+        # Convert to LLMConfig object
+        config = LLMConfig(
+            model_name=config_data["model_name"],
+            model_type=config_data["model_type"],
+            temperature=config_data["temperature"],
+            max_tokens=config_data["max_tokens"],
+            context_length=config_data["context_length"],
+            parameter_count=config_data["parameter_count"],
+            model_path=config_data.get("model_path"),
+            device=config_data.get("device"),
+            quantization=config_data.get("quantization")
+        )
 
-print(f"Initializing {config.model_name}...")
-try:
-    mas_model = LocalLLM(config=config)
-    print("Success: Local LLM loaded.")
-except Exception as e:
-    print(f"[!] Model initialization failed: {e}")
-    sys.exit(1)
+        print(f"Initializing {config.model_name}...")
+        agent = LocalLLM(config=config)
+        agents.append(agent)
+        agent_names.append(config.model_name)
+        print(f"Success: Agent {i+1} loaded.")
 
-# Cache the tokenizer for token counting (if available)
-tokenizer = mas_model.tokenizer if hasattr(mas_model, 'tokenizer') else None
+    except Exception as e:
+        print(f"[!] Failed to load agent {i+1}: {e}")
+        sys.exit(1)
+
+print(f"All {len(agents)} agents loaded successfully!")
+
+# Use the first agent's tokenizer for token counting (if available)
+tokenizer = agents[0].tokenizer if hasattr(agents[0], 'tokenizer') else None
 
 # ==========================================
 # 3. HELPER FUNCTIONS
@@ -79,39 +99,74 @@ def get_real_token_count(text):
     return len(tokenizer.encode(text)) if tokenizer else len(text) // 4
 
 def calculate_flops(token_count):
-    return 2 * config.parameter_count * token_count
+    # Use the first agent's parameter count for FLOP calculation
+    return 2 * agents[0].config.parameter_count * token_count
+
+def extract_confidence(response_text):
+    """Extract confidence score from model response."""
+    import re
+
+    # Look for confidence patterns like "confidence: 0.95", "95% confident", etc.
+    confidence_patterns = [
+        r'confidence[:\s]*(\d+\.?\d*)',  # "confidence: 0.95"
+        r'(\d+\.?\d*)[\s]*confidence',   # "0.95 confidence"
+        r'(\d+)%[\s]*confident',         # "95% confident"
+        r'confident.*(\d+\.?\d*)',       # "confident 0.95"
+    ]
+
+    for pattern in confidence_patterns:
+        match = re.search(pattern, response_text, re.IGNORECASE)
+        if match:
+            value = float(match.group(1))
+            # Convert percentage to decimal if needed
+            if value > 1:
+                value = value / 100
+            return min(value, 1.0)  # Cap at 1.0
+
+    # Default confidence if no pattern found
+    print(f"Warning: Could not extract confidence from response, using default 0.5")
+    return 0.5
 
 def construct_message(agents, question, idx):
+    # Initial Debate Prompt
     if len(agents) == 0:
-        return {"role": "user", "content": "Can you double check that your answer is correct. Put your final answer in the form (X) at the end of your response."}
+        return {
+            "role": "user",
+            "content": "Can you double check that your answer is correct. Put your final answer in the form (X) at the end of your response."
+        }
+
     prefix_string = "These are the solutions to the problem from other agents: "
+
     for agent in agents:
         try:
             agent_response = agent[idx]["content"]
             response = "\n\n One agent solution: ```{}```".format(agent_response)
-            prefix_string += response
+            prefix_string = prefix_string + response
         except IndexError:
             continue
-    prefix_string += """\n\n Using the reasoning from other agents as additional advice, can you give an updated answer? Examine your solution and that other agents step by step. Put your answer in the form (X) at the end of your response."""
+
+    prefix_string = prefix_string + """\n\n Using the solutions from other agents as additional information, can you provide your answer to the question? \n The original question is: {} Explain your reasoning. Provide your confidence in your answer as a number between 0 and 1 (e.g., 0.95 for 95% confidence). Your final answer should be in the form (X) at the end of your response.""".format(question)
     return {"role": "user", "content": prefix_string}
 
 def construct_assistant_message(completion):
     content = completion["choices"][0]["message"]["content"]
     return {"role": "assistant", "content": content}
 
-def generate_answer(answer_context):
+def generate_answer(answer_context, agent_model):
     try:
+        # 1. Format prompt
         prompt_text = ""
         for msg in answer_context:
             prompt_text += f"\n\n### {msg['role'].upper()}:\n{msg['content']}"
         prompt_text += "\n\n### ASSISTANT:\n"
 
-        response_object = mas_model.generate(prompt_text)
+        # 2. Call Model
+        response_object = agent_model.generate(prompt_text)
 
-        # Extract text from LLMResponse object
+        # 3. Extract text
         response_text = response_object.text
 
-        # Use token counts from the response if available, otherwise estimate
+        # 4. Calculate Stats (use response data if available, otherwise estimate)
         if hasattr(response_object, 'input_tokens') and hasattr(response_object, 'output_tokens'):
             prompt_tokens = response_object.input_tokens
             completion_tokens = response_object.output_tokens
@@ -123,6 +178,7 @@ def generate_answer(answer_context):
 
         flops = calculate_flops(total_tokens)
 
+        # 5. Build Object
         completion = {
             "choices": [{"message": {"role": "assistant", "content": response_text}}],
             "usage": {
@@ -136,15 +192,15 @@ def generate_answer(answer_context):
         return completion, completion['usage']
 
     except Exception as e:
-        print(f"error calling model: {e}")
-        print("retrying due to an error......")
+        print(f"Error calling model: {e}")
+        print("Retrying...")
         time.sleep(2)
-        return generate_answer(answer_context)
+        return generate_answer(answer_context, agent_model)
 
 def parse_question_answer(df, ix):
     question = df.iloc[ix, 0]
     a, b, c, d = df.iloc[ix, 1], df.iloc[ix, 2], df.iloc[ix, 3], df.iloc[ix, 4]
-    question = f"Can you answer the following question as accurately as possible? {question}: A) {a}, B) {b}, C) {c}, D) {d} Explain your answer, putting the answer in the form (X) at the end of your response, where X represents A, B, C, or D. Do not output the number. Output only the option letter."
+    question = f"Can you answer the following question as accurately as possible? {question}: A) {a}, B) {b}, C) {c}, D) {d} Explain your answer. Provide your confidence in your answer as a number between 0 and 1 (e.g., 0.95 for 95% confidence). Your final answer should be in the form (X) at the end of your response, where X represents A, B, C, or D."
     answer = df.iloc[ix, 5]
     return question, answer
 
@@ -152,11 +208,10 @@ def parse_question_answer(df, ix):
 # 4. MAIN LOOP (WITH AUTO-SAVE & RESUME)
 # ==========================================
 if __name__ == "__main__":
-    agents = 1
-    rounds = 1
+    rounds = args.rounds
+    confidence_threshold = args.confidence_threshold
+    random.seed(0)
 
-    total_prompt_tokens = 0
-    total_completion_tokens = 0
     total_tokens = 0
     total_flops = 0
     api_calls = 0
@@ -166,25 +221,24 @@ if __name__ == "__main__":
     if not tasks: tasks = glob("./data/test/*.csv")
     dfs = [pd.read_csv(task) for task in tasks]
 
-    random.seed(0)
-    
     # --- RESUME LOGIC ---
-    # Use model name in filename (replace special characters)
-    model_short_name = config.model_name.replace("/", "_").replace("-", "_")
-    outfile = f"mmlu-25-_{agents}_{rounds}_{model_short_name}.json"
+    # Create output filename based on agent names and parameters
+    agent_short_names = [name.split('/')[-1].replace('-', '_').replace('.', '_') for name in agent_names]
+    outfile = f"debate_mmlu_{rounds}rounds_{confidence_threshold}conf_{'_'.join(agent_short_names[:3])}.json"
     response_dict = {}
-    
+
     if os.path.exists(outfile):
-        print(f"[Resume] Found existing results in {outfile}")
+        print(f"[Resume] Found existing file: {outfile}")
         try:
             with open(outfile, "r") as f:
                 response_dict = json.load(f)
-            print(f"[Resume] {len(response_dict)} questions already completed.")
+            print(f"[Resume] Loaded {len(response_dict)} completed questions.")
         except:
             print("[Resume] File corrupted. Starting fresh.")
+    # --------------------
 
-    # Loop 100 times
-    for i in range(25):
+    # Loop 100 times (restore original number)
+    for i in range(100):
         # We perform the random choice FIRST to ensure the seed stays consistent
         df = random.choice(dfs)
         idx = random.randint(0, len(df)-1)
@@ -197,28 +251,83 @@ if __name__ == "__main__":
         # ---------------------
 
         print(f"--- Processing Question {i+1} ---")
-        agent_contexts = [[{"role": "user", "content": question}] for agent in range(agents)]
 
-        for round in range(rounds):
-            print(f"  Round {round+1}...")
-            for idx, agent_context in enumerate(agent_contexts):
-                if round != 0:
-                    agent_contexts_other = agent_contexts[:idx] + agent_contexts[idx+1:]
-                    message = construct_message(agent_contexts_other, question, 2 * round - 1)
-                    agent_context.append(message)
+        # Use first agent (llama3.1-8b-instruct) for initial confidence evaluation
+        gate_agent = agents[0]
+        gate_context = [{"role": "user", "content": question}]
 
-                completion, usage = generate_answer(agent_context)
+        print("  Evaluating initial confidence...")
+        gate_completion, gate_usage = generate_answer(gate_context, gate_agent)
 
-                if usage:
-                    total_tokens += usage.get('total_tokens', 0)
-                    total_flops += usage.get('flops', 0)
-                    api_calls += 1
-                
-                print(f"    Agent {idx} finished ({usage.get('total_tokens')} tok)")
-                assistant_message = construct_assistant_message(completion)
-                agent_context.append(assistant_message)
+        # Extract confidence from response
+        gate_response = gate_completion["choices"][0]["message"]["content"]
+        confidence_score = extract_confidence(gate_response)
 
-        response_dict[question] = (agent_contexts, answer)
+        print(f"  Initial confidence: {confidence_score}")
+
+        # Initialize usage tracking for this question
+        question_tokens = 0
+        question_flops = 0
+        question_api_calls = 0
+
+        # Check if confidence meets threshold
+        if confidence_score >= confidence_threshold:
+            print(f"  Confidence {confidence_score} >= {confidence_threshold}, skipping debate")
+            # Store only the gate agent's response
+            agent_contexts = [gate_context + [{"role": "assistant", "content": gate_response}]]
+
+            # Track gate agent usage
+            if gate_usage:
+                question_tokens += gate_usage.get('total_tokens', 0)
+                question_flops += gate_usage.get('flops', 0)
+                question_api_calls += 1
+                total_tokens += gate_usage.get('total_tokens', 0)
+                total_flops += gate_usage.get('flops', 0)
+                api_calls += 1
+
+            question_usage = {
+                "total_tokens": question_tokens,
+                "flops": question_flops,
+                "api_calls": question_api_calls
+            }
+            response_dict[question] = (agent_contexts, answer, confidence_score, "gated", question_usage)
+        else:
+            print(f"  Confidence {confidence_score} < {confidence_threshold}, proceeding with debate")
+
+            # Initialize debate contexts for all agents
+            agent_contexts = [[{"role": "user", "content": question}] for _ in range(len(agents))]
+
+            for round in range(rounds):
+                print(f"  Round {round+1}...")
+                for idx, agent_context in enumerate(agent_contexts):
+
+                    if round != 0:
+                        agent_contexts_other = agent_contexts[:idx] + agent_contexts[idx+1:]
+                        message = construct_message(agent_contexts_other, question, 2*round - 1)
+                        agent_context.append(message)
+
+                    completion, usage = generate_answer(agent_context, agents[idx])
+
+                    # Track usage
+                    if usage:
+                        question_tokens += usage.get('total_tokens', 0)
+                        question_flops += usage.get('flops', 0)
+                        question_api_calls += 1
+                        total_tokens += usage.get('total_tokens', 0)
+                        total_flops += usage.get('flops', 0)
+                        api_calls += 1
+
+                    print(f"    Agent {idx+1} ({agent_names[idx].split('/')[-1]}) finished ({usage.get('total_tokens')} tok)")
+
+                    assistant_message = construct_assistant_message(completion)
+                    agent_context.append(assistant_message)
+
+            question_usage = {
+                "total_tokens": question_tokens,
+                "flops": question_flops,
+                "api_calls": question_api_calls
+            }
+            response_dict[question] = (agent_contexts, answer, confidence_score, "debated", question_usage)
 
         # --- AUTO-SAVE AFTER EVERY QUESTION ---
         with open(outfile, "w") as f:
@@ -226,7 +335,31 @@ if __name__ == "__main__":
         print(f"    [Saved] {len(response_dict)}/100 completed.")
         # --------------------------------------
 
-    print("\n" + "="*50)
-    print(f"Job Complete. Saved to {outfile}")
-    print(f"Total FLOPs used this session: {total_flops:.2e}")
-    print("="*50)
+    # Final Summary
+    print("\n" + "="*60)
+    print("DEBATE SYSTEM COMPUTE USAGE SUMMARY")
+    print("="*60)
+    print(f"Agents used: {', '.join([name.split('/')[-1] for name in agent_names])}")
+    print(f"Confidence threshold: {confidence_threshold}")
+    print(f"Debate rounds: {rounds}")
+    print(f"Total API calls: {api_calls}")
+    print(f"Total tokens used: {total_tokens}")
+    print(f"Total FLOPs: {total_flops:.2e}")
+    print(f"Total PetaFLOPs: {total_flops / 1e15:.6f}")
+    print("="*60)
+
+    # Calculate statistics
+    total_questions = len(response_dict)
+    gated_count = sum(1 for v in response_dict.values() if len(v) > 3 and v[3] == "gated")
+    debated_count = sum(1 for v in response_dict.values() if len(v) > 3 and v[3] == "debated")
+
+    print("DEBATE STATISTICS")
+    print("="*60)
+    print(f"Total questions processed: {total_questions}")
+    print(f"Questions gated (high confidence): {gated_count}")
+    print(f"Questions debated (low confidence): {debated_count}")
+    if total_questions > 0:
+        print(".1f")
+    print("="*60)
+
+    print("Done.")

@@ -5,7 +5,7 @@
     "device": "cpu",
     "quantization": null,
     "temperature": 0.7,
-    "max_tokens": 4096,
+    "max_tokens": 1024,
     "context_length": 4096,
     "parameter_count": 8000000000
 }
